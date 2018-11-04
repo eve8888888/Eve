@@ -248,6 +248,7 @@ class Test{
         Link.add(null);
         Link.add("5");
         Link.add("6");
+        String s = "hello";
 
         //Link.set(8,"777");
         //Link.clear();
