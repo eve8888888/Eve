@@ -66,16 +66,12 @@ class LinkImpl implements ILink{
     private Node head;
     private Node last;
     private int size;
-    LinkImpl(){
-        head = null;
-        last = null;
-        size = 0;
-    }
-    class Node{
+
+    private class Node{
         private Object data;
         private Node prev;
         private Node next;
-        public Node(Node prev,Object data,Node next){
+        private Node(Node prev,Object data,Node next){
             this.data = data;
             this.next = next;
             this.prev = prev;
@@ -96,6 +92,25 @@ class LinkImpl implements ILink{
 
     @Override
     public boolean remove(Object obj) {
+        if(this.contains(obj) != -1){
+            Node temp = this.node(this.contains(obj));
+            Node prev = temp.prev;
+            Node next = temp.next;
+            if (prev == null) {
+                this.head = next;
+            }else {
+                prev.next = next;
+                temp.prev = null;
+            }
+            if (next == null) {
+                this.last = prev;
+            }else {
+                next.prev = prev;
+                temp.next = null;
+            }
+            temp.data = null;
+            this.size--;
+        }
         return false;
     }
 
@@ -105,6 +120,8 @@ class LinkImpl implements ILink{
             Node temp = this.node(index);
             temp.data = obj;
         }
+        else
+            System.out.println("输入不合法");
     }
 
     @Override
@@ -112,7 +129,7 @@ class LinkImpl implements ILink{
         if(isIndex(index)) {
             return this.node(index).data;
         }
-        return 0;
+        return "输入不合法";
     }
 
     @Override
@@ -181,9 +198,10 @@ class LinkImpl implements ILink{
         if(result != null) {
             for (Object temp :
                     result) {
-                System.out.println(temp);
+                System.out.print(temp + ",");
             }
         }
+        System.out.println();
     }
 
     /**
@@ -192,11 +210,20 @@ class LinkImpl implements ILink{
      * @return 结点
      */
     public Node node(int index){
-        Node temp = head;
-        for (int i =0;i<index;i++){
-            temp = temp.next;
+        if(index < (this.size >> 1)){
+            Node temp = head;
+            for (int i =0;i<index;i++){
+                temp = temp.next;
+            }
+            return temp;
+        }else {
+            Node temp =  last;
+            for(int i = this.size - index - 1; i > 0; i--){
+                temp = temp.prev;
+            }
+            return temp;
         }
-        return temp;
+
     }
 
     /**
@@ -208,8 +235,7 @@ class LinkImpl implements ILink{
         if(index>=0 && index < size)
             return true;
         else
-            System.out.println("输入不合法");
-        return false;
+            return false;
     }
 }
 class Test{
@@ -218,12 +244,18 @@ class Test{
         Link.add("1");
         Link.add("2");
         Link.add("3");
-        Link.add(null);
         Link.add("4");
-        Link.clear();
+        Link.add(null);
+        Link.add("5");
+        Link.add("6");
+
+        //Link.set(8,"777");
+        //Link.clear();
         //Link.set(1,"hhhh");
+        Link.remove(null);
         Link.printLink();
-        //System.out.println(Link.size());
+
+        //System.out.println(Link.get(6));
 
         //System.out.println(Link.contains(null));
     }
