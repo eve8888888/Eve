@@ -12,7 +12,7 @@ interface ILink{
     void add(Object obj);
 
     /**
-     * 修改指定位置结点内容
+     * 移除结点
      * @param obj
      * @return
      */
@@ -248,16 +248,7 @@ class Test{
         Link.add(null);
         Link.add("5");
         Link.add("6");
-        String s = "hello";
-
-        //Link.set(8,"777");
-        //Link.clear();
-        //Link.set(1,"hhhh");
-        Link.remove(null);
         Link.printLink();
 
-        //System.out.println(Link.get(6));
-
-        //System.out.println(Link.contains(null));
     }
 }
