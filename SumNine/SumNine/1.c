@@ -4,20 +4,13 @@
 int main() {
 	int sum = 0;
 	for (int i = 1; i <= 100; i++) {
-		if(i <10) {
-			if (i == 9) {
-				sum++;
-			}
-		}
-		else
-		{
+
 			if (i % 10 == 9) {
 				sum++;
 			}
-			else if (i / 10 == 9) {
+			if (i / 10 == 9) {
 				sum++;
 			}
-		}
 	}
 	printf("%d ", sum);
 	system("pause");

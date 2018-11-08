@@ -8,8 +8,23 @@ void swap(int *x, int *y) {
 	*y = temp;
 }
 int main() {
-	int x;
-	int y;
-	printf("%d", 9 / 2);
+	int x = 40;
+	int y = 30;
+	int temp = 1;
+	if (x > y) {
+		swap(&x, &y);
+	}
+	while (temp != 0)
+	{
+		temp = y % x;
+		if (temp == 0) {
+			printf("%d",x);
+		}
+		else{
+			y = x;
+			x = temp;
+		}
+	}
 	system("pause");
+	return 0;
 }

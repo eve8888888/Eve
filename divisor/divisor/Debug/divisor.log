@@ -1,15 +1,13 @@
-﻿生成启动时间为 2018/11/5 0:24:18。
-     1>项目“E:\VSProjects\divisor\divisor\divisor.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2018/11/8 19:49:32。
+     1>项目“E:\Eve\divisor\divisor\divisor.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt 1.c
          1.c
-     1>e:\vsprojects\divisor\divisor\1.c(12): warning C4101: “y”: 未引用的局部变量
-     1>e:\vsprojects\divisor\divisor\1.c(11): warning C4101: “x”: 未引用的局部变量
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VSProjects\divisor\Debug\divisor.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\VSProjects\divisor\Debug\divisor.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VSProjects\divisor\Debug\divisor.lib" /MACHINE:X86 Debug\1.obj
-         divisor.vcxproj -> E:\VSProjects\divisor\Debug\divisor.exe
-     1>已完成生成项目“E:\VSProjects\divisor\divisor\divisor.vcxproj”(Build 个目标)的操作。
+     1>e:\eve\divisor\divisor\1.c(23): error C2065: “BINARY”: 未声明的标识符
+     1>e:\eve\divisor\divisor\1.c(23): error C2143: 语法错误: 缺少“;”(在“else”的前面)
+     1>e:\eve\divisor\divisor\1.c(23): error C2181: 没有匹配 if 的非法 else
+     1>已完成生成项目“E:\Eve\divisor\divisor\divisor.vcxproj”(Build 个目标)的操作 - 失败。
 
-已成功生成。
+生成失败。
 
-已用时间 00:00:00.70
+已用时间 00:00:00.30

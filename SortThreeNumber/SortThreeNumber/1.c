@@ -9,9 +9,9 @@ void swap(int *x, int *y) {
 }
 
 int main() {
-	int x = 20;
-	int y = 10;
-	int z = 30;
+	int x = 2;
+	int y = 1;
+	int z = 3;
 
 	if (x < y) {
 		swap(&x, &y);
@@ -22,6 +22,6 @@ int main() {
 	if (y < z) {
 		swap(&y, &z);
 	}
-	printf("%d %d %d", x, y,z);
+	printf("%d %d %d", x, y, z);
 	return 0;
 }
