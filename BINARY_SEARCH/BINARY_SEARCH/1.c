@@ -23,8 +23,7 @@ int binarySearch(int* a,int val,int arr_size) {
 }
 int main() {
 	int b[] = { 1,2,3,4,5,6,7,8,9,10 };
-	printf("%d", binarySearch(&b,7, sizeof(b) / sizeof(b[0])));
-
+	printf("%d\n", binarySearch(&b,11, sizeof(b) / sizeof(b[0])));
 	system("pause");
 	return 0;
 }
