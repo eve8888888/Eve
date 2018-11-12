@@ -5,6 +5,36 @@ package mulThread;
  * @Date: 2018/11/11 11:35
  * @Version 1.0
  */
+
+
+
+class myThread implements Runnable{
+    int t = 10;
+    @Override
+    public void run() {
+        for (int i = 0;i<10;i++){
+            sale();
+        }
+    }
+    public synchronized void sale(){
+        if(t > 0){
+            System.out.println(Thread.currentThread().getName() + "剩余" + t--);
+        }
+    }
+}
+class Test{
+    public static void main(String[] args) {
+        myThread mt = new myThread();
+        Thread thread = new Thread(mt,"黄牛A");
+        Thread thread2 = new Thread(mt,"黄牛B");
+        Thread thread3 = new Thread(mt,"黄牛C");
+        thread.start();
+        thread2.start();
+        thread3.start();
+
+    }
+}
+
 //class myThread extends Thread{
 //    @Override
 //    public void run() {
@@ -13,6 +43,41 @@ package mulThread;
 //        }
 //    }
 //}
+
+/**
+ * 同步代码块
+ */
+//class myThread implements Runnable{
+//    int t = 100;
+//    @Override
+//    public void run() {
+//        for (int i = 0;i<100;i++){
+//            synchronized (this) {
+//                if(t>0) {
+//                    try {
+//                        Thread.sleep(20);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                    System.out.println(Thread.currentThread().getName() + "剩余" + t-- + "票");
+//                }
+//            }
+//        }
+//    }
+//}
+//class Test{
+//    public static void main(String[] args) {
+//        myThread mt = new myThread();
+//        Thread thread = new Thread(mt,"黄牛A");
+//        Thread thread2 = new Thread(mt,"黄牛B");
+//        Thread thread3 = new Thread(mt,"黄牛C");
+//        thread.start();
+//        thread2.start();
+//        thread3.start();
+//
+//    }
+//}
+
 //public class Test {
 //    public static void main(String[] args) {
 //        myThread myThread1 = new myThread();
@@ -22,33 +87,29 @@ package mulThread;
 //        myThread1.start();
 //        myThread2.start();
 //        myThread3.start();
-//
 //    }
 //}
 
-class myThread implements Runnable{
-    @Override
-    public void run() {
-        for(int i = 0;i < 3;i++){
-                System.out.println(Thread.currentThread().getName() + "线程" + i);
-        }
-    }
-}
-public class Test {
-    public static void main(String[] args) {
-        System.out.println("main线程开始。。。");
-        myThread mt = new myThread();
-        Thread thread = new Thread(mt,"a");
-        Thread thread2 = new Thread(mt,"b");
-        Thread thread3 = new Thread(mt,"c");
-
-        thread.start();
-        thread2.start();
-        thread3.start();
-
-        System.out.println("main线程结束。。。");
-    }
-}
+//class myThread implements Runnable{
+//    public boolean flag = false;
+//
+//    @Override
+//    public void run() {
+//            for (int i = 0; i < 300000000; i++)
+//                    System.out.println(Thread.currentThread().getName() + "线程" + i);
+//    }
+//}
+//public class Test {
+//    public static void main(String[] args) throws InterruptedException {
+//        System.out.println("main线程开始。。。");
+//        myThread mt = new myThread();
+//        Thread thread = new Thread(mt,"a");
+//        thread.start();
+//        Thread.sleep(1000);
+//        mt.flag = true;
+//        System.out.println("main线程结束。。。");
+//    }
+//}
 //
 //class myThread implements Callable<String> {
 //    private int t = 10;
