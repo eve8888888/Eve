@@ -1,6 +1,7 @@
 package planewar;
 
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
@@ -47,7 +48,8 @@ public class Hero extends FlyingObject {
         }
     }
     public void move(int x,int y){
-
+        this.x = x;
+        this.y = y;
     }
     @Override
     void step() {

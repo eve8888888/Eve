@@ -23,7 +23,8 @@ public class Sky extends FlyingObject {
         }
     }
     public Sky(){
-        super(0,0,480,850);
+        super(0,0,480
+                ,850);
         y1 = -850;
         step = 3;
     }

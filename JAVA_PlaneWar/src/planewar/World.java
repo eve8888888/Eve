@@ -35,6 +35,7 @@ public class World extends JPanel {
             public void run() {
                 //objectAction();
                 bulletAction();
+                heroAction();
             }
         },10,10);
 
@@ -63,7 +64,13 @@ public class World extends JPanel {
             System.arraycopy(bu, 0, bullets, bullets.length - bu.length, bu.length);
         }
     }
-
+    public void heroAction(){
+        PointerInfo pinfo = MouseInfo.getPointerInfo();
+        Point p = pinfo.getLocation();
+        int mx = (int)p.getX();
+        int my = (int)p.getY();
+        hero.move(mx - 800,my - 200);
+    }
     /**
      * 随机产生一个敌人对象
      * @return
@@ -100,6 +107,7 @@ public class World extends JPanel {
         for (int i =0 ;i<bullets.length;i++){
             bullets[i].step();
         }
+        //hero.step();
     }
     Airplane airplane = new Airplane();
     public static void main(String[] args) {
@@ -122,8 +130,6 @@ public class World extends JPanel {
     @Override
     public void paint(Graphics g){
         sky.paintObject(g);
-
-        hero.paintObject(g);
         //画敌机对象
         for (int i = 0;i < object.length; i++){
             object[i].paintObject(g);
@@ -132,5 +138,6 @@ public class World extends JPanel {
         for (int i = 0;i < bullets.length; i++){
             bullets[i].paintObject(g);
         }
+        hero.paintObject(g);
     }
 }
