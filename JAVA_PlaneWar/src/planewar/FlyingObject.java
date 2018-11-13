@@ -17,6 +17,11 @@ import java.util.Random;
  * 2个构造方法供子类调用来完成初始化操作
  */
 abstract class FlyingObject {
+    //定义状态常量
+    public static final int LIFE = 0; //表示活着
+    public static final int DEAD = 1; //表示死了
+    public static final int REMOVE = 2;//表示可回收
+    protected int state = LIFE;
     protected Integer x;
     protected Integer y;
     protected Integer width;
@@ -25,9 +30,8 @@ abstract class FlyingObject {
         Random random = new Random();
         this.width = width;
         this.height = height;
-        this.x = random.nextInt(400 - width -1);
-        //this.y = -height;
-        this.y = 0;
+        this.x = random.nextInt(480 - width -1);
+        this.y = -height;
     }
 
     public FlyingObject(Integer x, Integer y, Integer width, Integer height) {
@@ -41,18 +45,20 @@ abstract class FlyingObject {
 
 
     //获取图片对象
-    public BufferedImage getImage(String s){
-        BufferedImage image = null;
-        try {
-            //读取一个图片资源
-            image = ImageIO.read(Sky.class.getResource(s));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return image;
+    abstract public BufferedImage getImage();
+
+    public void paintObject(Graphics g){
+        g.drawImage(getImage(),x,y,null);
     }
 
-    public void paintObject(Graphics g,String str){
-        g.drawImage(getImage(str),x,y,null);
+    //判断生死、删除的方法
+    public boolean isLife(){
+        return state == LIFE;
+    }
+    public boolean isDead(){
+        return state == DEAD;
+    }
+    public boolean isRemove(){
+        return state == REMOVE;
     }
 }
