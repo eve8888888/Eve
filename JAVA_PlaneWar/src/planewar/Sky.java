@@ -22,7 +22,7 @@ public class Sky extends FlyingObject {
             e.printStackTrace();
         }
     }
-    public Sky(){
+    Sky(){
         super(0,0,480
                 ,850);
         y1 = -850;
@@ -49,5 +49,10 @@ public class Sky extends FlyingObject {
     public void paintObject(Graphics g){
         g.drawImage(getImage(),x,y,null);
         g.drawImage(getImage(),x,y1,null);
+    }
+
+    @Override
+    public boolean outOfBounds() {
+        return false;
     }
 }

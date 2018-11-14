@@ -9,7 +9,7 @@ import java.io.IOException;
  * @Date: 2018/11/12 14:00
  * @Version 1.0
  */
-public class Airplane extends FlyingObject {
+public class Airplane extends FlyingObject implements Enemy{
     private Integer step;
     //加载图片
     private static BufferedImage[] images = new BufferedImage[5];
@@ -23,7 +23,7 @@ public class Airplane extends FlyingObject {
             }
         }
     }
-    public Airplane(){
+    Airplane(){
         super(49,36);
         step = 2;
     }
@@ -37,7 +37,7 @@ public class Airplane extends FlyingObject {
      * 如果当前的状态为死了，加载剩下的4张图片
      * @return image
      */
-    int dadeIndex = 1;
+    private int dadeIndex = 1;
     @Override
     public BufferedImage getImage(){
         if(this.isLife()) {
@@ -50,5 +50,16 @@ public class Airplane extends FlyingObject {
             return image;
         }
         return null;
+    }
+
+    @Override
+    public boolean outOfBounds() {
+
+        return this.y > 850;
+    }
+
+    @Override
+    public int getScore() {
+        return 1;
     }
 }

@@ -32,7 +32,7 @@ abstract class FlyingObject {
         this.y = -height;
     }
 
-    public FlyingObject(Integer x, Integer y, Integer width, Integer height) {
+    FlyingObject(Integer x, Integer y, Integer width, Integer height) {
         this.x = x;
         this.y = y;
         this.width = width;
@@ -40,23 +40,34 @@ abstract class FlyingObject {
     }
 
     abstract void step();
-
-
     //获取图片对象
     abstract public BufferedImage getImage();
-
     public void paintObject(Graphics g){
         g.drawImage(getImage(),x,y,null);
     }
 
     //判断生死、删除的方法
-    public boolean isLife(){
+    boolean isLife(){
         return state == LIFE;
     }
-    public boolean isDead(){
+    boolean isDead(){
         return state == DEAD;
     }
-    public boolean isRemove(){
+    boolean isRemove(){
         return state == REMOVE;
+    }
+    public abstract boolean outOfBounds();
+    //敌人和子弹（英雄机）是否碰撞 other表示子弹或英雄机
+    public boolean hit(FlyingObject other){
+        if(other.x >= this.x - other.width  && other.x <= this.x + this.width
+                && other.y >= this.y - other.height && other.y <= this.y + this.height) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+    //让敌人去死的方法
+    public void goDead(){
+        state = DEAD;
     }
 }

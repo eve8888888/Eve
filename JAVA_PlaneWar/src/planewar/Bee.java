@@ -10,10 +10,10 @@ import java.util.Random;
  * @Date: 2018/11/12 14:01
  * @Version 1.0
  */
-public class Bee extends FlyingObject {
+public class Bee extends FlyingObject implements Award{
+    private Integer awardType;
     private Integer xstep;
     private Integer ystep;
-    private Integer awardType;//0为命；1为分
     //加载图片
     private static BufferedImage[] images = new BufferedImage[5];
     static {
@@ -26,8 +26,9 @@ public class Bee extends FlyingObject {
             }
         }
     }
-    public Bee(){
+    Bee(){
         super(60,50);
+        //0为火力值；1为命
         awardType = new Random().nextInt(2);
         xstep = 3;
         ystep = 2;
@@ -43,7 +44,7 @@ public class Bee extends FlyingObject {
             xstep *= -1;
         }
     }
-    int dadeIndex = 1;
+    private int dadeIndex = 1;
     @Override
     public BufferedImage getImage() {
         if(this.isLife()) {
@@ -58,4 +59,13 @@ public class Bee extends FlyingObject {
         return null;
     }
 
+    @Override
+    public boolean outOfBounds() {
+        return this.y > 850;
+    }
+
+    @Override
+    public int getType() {
+        return awardType;
+    }
 }
