@@ -37,7 +37,7 @@ public class GamePanel extends JPanel {
     Column column = new Column();
 
     public boolean passColumn() {
-        if(bird.x==column.x+79 || bird.x == column.x1 +79 + 248) {
+        if(bird.x==column.x+79 || bird.x == column.x1 +179) {
             return true;
         }
         return false;
