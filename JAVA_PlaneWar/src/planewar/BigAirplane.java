@@ -25,7 +25,7 @@ public class BigAirplane extends FlyingObject implements Enemy {
     }
     BigAirplane(){
         super(69,99);
-        step = 3;
+        step = 4;
     }
     @Override
     public void step(){

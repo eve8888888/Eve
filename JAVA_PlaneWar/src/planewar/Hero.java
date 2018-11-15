@@ -17,7 +17,7 @@ public class Hero extends FlyingObject {
         for(int i = 0;i<images.length;i++) {
             try {
                 images[i] =
-                        ImageIO.read(Hero.class.getResource("hero0"+".png"));
+                        ImageIO.read(Hero.class.getResource("hero"+ i + ".png"));
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -107,7 +107,6 @@ public class World extends JPanel {
                 if(object[i] instanceof Enemy){
                     object[i].goDead();
                     hero.subLife();
-                }else {
                     hero.clearDoubleFire();
                 }
             }
@@ -182,6 +181,7 @@ public class World extends JPanel {
 
     public void checkGameOverAction(){
         if(hero.getLife() <= 0){
+            hero.state = hero.DEAD;
             state = GAMEOVER;
         }
     }
@@ -236,7 +236,7 @@ public class World extends JPanel {
                     objectAction();
                     stepAction();
                     bulletAction();
-                    //outOfBoundsAction();
+                    outOfBoundsAction();
                     bulletHitAction();
                     heroHitAction();
                     checkGameOverAction();
@@ -250,12 +250,11 @@ public class World extends JPanel {
     private int index = 0;
     private void bulletAction(){
         index++;
-        if(index % 20 == 0) {
+        if(index % 15 == 0) {
             if(!hero.getDoubleFire()) {
                 Bullet[] bu = hero.getBullet();
                 bullets = Arrays.copyOf(bullets, bullets.length + bu.length);
                 System.arraycopy(bu, 0, bullets, bullets.length - bu.length, bu.length);
-                System.out.println("HHHHHHHH"+bullets.length);
             }else {
                 Bullet[] bu2 = hero.getBullet();
                 bullets2 = Arrays.copyOf(bullets2, bullets2.length + bu2.length);
@@ -270,10 +269,10 @@ public class World extends JPanel {
      * 随机产生一个敌人对象
      */
     private FlyingObject nextOne(){
-        int temp = new Random().nextInt(21);
-        if(temp < 8){
+        int temp = new Random().nextInt(101);
+        if(temp < 40){
             return new Airplane();
-        }else if(temp < 18){
+        }else if(temp < 95){
             return new BigAirplane();
         }else {
             return new Bee();
@@ -283,7 +282,7 @@ public class World extends JPanel {
     private void objectAction(){
         //小敌机初始化
         index2++;
-        if(index2 % 10 == 0) {
+        if(index2 % 15 == 0) {
             FlyingObject ob = nextOne();
             object = Arrays.copyOf(object, object.length + 1);
             object[object.length - 1] = ob;
@@ -353,7 +352,7 @@ public class World extends JPanel {
         }
 
         hero.paintObject(g);
-        g.drawString("Scours:"+ score,10,20);
+        g.drawString("Scores:"+ score,10,20);
         g.drawString("Life:"+hero.getLife(),10,40);
         switch (state){
             case START:
