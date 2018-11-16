@@ -16,10 +16,10 @@ import java.util.TimerTask;
  * @Version 1.0
  */
 public class GamePanel extends JPanel {
-    int score = 0;
-    public static final int START = 0;
-    public static final int RUNNING = 1;
-    public static final int GAMEOVER = 2;
+    private int score = 0;
+    private static final int START = 0;
+    private static final int RUNNING = 1;
+    private static final int GAMEOVER = 2;
     private int state = START;
     private static BufferedImage startImage;
     private static BufferedImage gameOverImage;
@@ -31,18 +31,15 @@ public class GamePanel extends JPanel {
             e.printStackTrace();
         }
     }
-    Sky sky = new Sky();
-    Bird bird = new Bird();
-    Ground ground = new Ground();
-    Column column = new Column();
+    private Sky sky = new Sky();
+    private Bird bird = new Bird();
+    private Ground ground = new Ground();
+    private Column column = new Column();
 
-    public boolean passColumn() {
-        if(bird.x==column.x+79 || bird.x == column.x1 +179) {
-            return true;
-        }
-        return false;
+    private boolean passColumn() {
+        return bird.x == column.x + 79 || bird.x == column.x1 + 79;
     }
-    public boolean hitColumn() {
+    private boolean hitColumn() {
         //56表示小鸟的宽度
         //78表示水管的宽度
         if(bird.x>=column.x-56 && bird.x<= column.x+78) {
@@ -50,19 +47,13 @@ public class GamePanel extends JPanel {
                 return true;
             }
         }
-        if(bird.x>=column.x1-56 + 250 &&bird.x<=column.x1+78 + 250) {
-            if(bird.y<=column.y1+530||bird.y>=column.y1+622) {
-                return  true;
-            }
+        if(bird.x>=column.x1-56 &&bird.x<=column.x1+78) {
+            return bird.y <= column.y1 + 530 || bird.y >= column.y1 + 622;
         }
         return  false;
     }
-    public boolean hitGround(){
-        if(bird.y >= 450) {
-            return true;
-        }else{
-            return false;
-        }
+    private boolean hitGround(){
+        return bird.y >= 450;
     }
 
     @Override
@@ -87,7 +78,7 @@ public class GamePanel extends JPanel {
         g.setColor(Color.WHITE);
         g.drawString(""+score, 196-2, 48-2);
     }
-    public void action(){
+    void action(){
 
         addMouseListener(new MouseAdapter() {
             @Override
@@ -122,7 +113,7 @@ public class GamePanel extends JPanel {
             }
         },10,10);
     }
-    public void stepAction(){
+    private void stepAction(){
         sky.step();
         ground.step();
         column.step();

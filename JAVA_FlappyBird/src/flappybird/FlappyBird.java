@@ -12,7 +12,7 @@ public class FlappyBird {
         JFrame f = new JFrame();
         GamePanel gamePanel = new GamePanel();
         f.add(gamePanel);
-        f.setTitle("飞扬小鸟");
+        f.setTitle("FlappyBird");
         //设置窗口大小
         f.setSize(432, 644);
         //设置关闭按钮关闭程序

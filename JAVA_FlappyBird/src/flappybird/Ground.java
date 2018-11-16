@@ -11,9 +11,8 @@ import java.io.IOException;
  * @Version 1.0
  */
 public class Ground extends FlyingObject {
-    int x1 = 0;
-    int y1 = 0;
-    int step = 2;
+    private int x1;
+    private int y1;
     private static BufferedImage gIma;
     static {
         try {
@@ -23,11 +22,12 @@ public class Ground extends FlyingObject {
         }
     }
     Ground() {
-        super(0, 498, 800, 146);
+        super(0, 498);
         x1 = 432;
         y1 = 498;
     }
-    public void step(){
+    void step(){
+        int step = 2;
         x -= step;
         x1 -= step;
         if(x <= -432) {

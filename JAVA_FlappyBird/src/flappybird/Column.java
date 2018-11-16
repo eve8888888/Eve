@@ -14,7 +14,6 @@ import java.util.Random;
 public class Column extends FlyingObject {
     int x1;
     int y1;
-    int step = 1;
     private static BufferedImage colIma;
     static {
         try {
@@ -24,8 +23,9 @@ public class Column extends FlyingObject {
         }
     }
     Column() {
-        super(200, -351, 78, 1200);
-        x1 = 200 + 432;
+        super(150, -351);
+        x1 = 50+225 + 150 ;
+        y1 = -460;
     }
 
     @Override
@@ -35,14 +35,17 @@ public class Column extends FlyingObject {
     @Override
     public void paintObject(Graphics g){
         g.drawImage(getImage(),x,y,null);
+        g.drawImage(getImage(),x1,y1,null);
     }
-    public void step(){
+    void step(){
+        int step = 1;
         x -= step;
         x1 -= step;
         if(x <= -78) {
             x = 432;
             y = new Random().nextInt(268) - 480;
         }
+        //432
         if(x1 <= -78) {
             x1 = 432;
             y1 = new Random().nextInt(268) - 480;

@@ -9,15 +9,12 @@ import java.awt.image.BufferedImage;
  * @Version 1.0
  */
 public abstract class FlyingObject {
-    protected Integer x;
-    protected Integer y;
-    protected Integer width;
-    protected Integer height;
-    FlyingObject(int x,int y,int width,int height){
+    Integer x;
+    Integer y;
+
+    FlyingObject(int x, int y){
         this.x = x;
         this.y = y;
-        this.width = width;
-        this.height = height;
     }
     abstract public BufferedImage getImage();
 

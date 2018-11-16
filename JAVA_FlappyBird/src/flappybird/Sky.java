@@ -11,9 +11,7 @@ import java.io.IOException;
  * @Version 1.0
  */
 public class Sky extends FlyingObject{
-    int x1 = 432;
-    int y1 = 0;
-    int step = 1;
+    private int x1 = 432;
     private static BufferedImage bgIma;
     static {
         try {
@@ -23,17 +21,18 @@ public class Sky extends FlyingObject{
         }
     }
     Sky(){
-        super(0,0,432,644);
+        super(0,0);
     }
-    public void step(){
-            x -= step;
-            x1 -= step;
-            if(x <= -432) {
-                x = 423;
-            }
-            if(x1 <= -432) {
-                x1 = 423;
-            }
+    void step(){
+        int step = 1;
+        x -= step;
+        x1 -= step;
+        if(x <= -432) {
+            x = 423;
+        }
+        if(x1 <= -432) {
+            x1 = 423;
+        }
     }
     @Override
     public BufferedImage getImage() {
@@ -42,6 +41,7 @@ public class Sky extends FlyingObject{
     @Override
     public void paintObject(Graphics g){
         g.drawImage(getImage(),x,y,null);
-        g.drawImage(getImage(),x1,y1,null);
+        int y1 = 0;
+        g.drawImage(getImage(),x1, y1,null);
     }
 }

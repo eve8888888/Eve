@@ -8,19 +8,15 @@ int fun(int i) {
 	}
 	return sum;
 }
-int main() {
-	int t = 0;
-	printf("%d \n", fun(4));
-	int x = fun(4);
-	//for (int i = 1; i <=3; i++) {
-	//	t += fun(i);
-	//}
-	for (int i = 4; i > 1; i--) {
-		x = x / i;
-		t += x;
+int fun_digui(int i) {
+	if (i == 1) {
+		return 1;
 	}
-
-	printf("1! + 2! + ... +10! = %d \n", t+fun(4));
+	return fun_digui(i - 1) * i;
+}
+int main() {
+	printf("%d \n", fun(10));
+	printf("%d \n", fun_digui(10));
 	system("pause");
 	return 0;
 }
