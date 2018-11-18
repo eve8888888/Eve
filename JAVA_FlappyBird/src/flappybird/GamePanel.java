@@ -98,6 +98,15 @@ public class GamePanel extends JPanel {
                     bird.step();
             }
         });
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                if(state == RUNNING){
+                    while (true)
+                        bird.step();
+                }
+            }
+        });
         //使用定时器
         new Timer().schedule(new TimerTask() {
             @Override

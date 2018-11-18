@@ -37,7 +37,7 @@ public class Bird extends FlyingObject {
     }
     void birdMove(){
         double v0 = v;
-        double g = 2.9;
+        double g = 2;
         double t = 0.25;
         double d = v0 * t - 0.5 * g * t * t;
         v = v0 - g * t;
