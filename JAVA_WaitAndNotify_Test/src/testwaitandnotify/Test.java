@@ -6,7 +6,7 @@ package testwaitandnotify;
  * @Version 1.0
  */
 
-class myThread extends Thread{
+class myThread implements Runnable{
     private boolean flag ;
     private Object object ;
 

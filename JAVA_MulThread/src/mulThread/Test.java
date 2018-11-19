@@ -38,9 +38,7 @@ class Test{
 //class myThread extends Thread{
 //    @Override
 //    public void run() {
-//        for(int i = 0;i < 3;i++){
-//            System.out.println(this.getName() + "线程" + i);
-//        }
+//        System.out.println();
 //    }
 //}
 

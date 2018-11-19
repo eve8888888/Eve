@@ -20,6 +20,6 @@ public class Test extends HttpServlet{
         out.println(name +"\n" + ps);
         out.close();
         System.out.print("ok");
-        response.sendRedirect("regok.html");
+        response.sendRedirect("reg.js");
     }
 }
