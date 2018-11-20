@@ -11,6 +11,7 @@ import java.io.File;
  */
 public abstract class HttpServlet {
     protected abstract void service(HttpRequest request, HttpResponse response);
+    @SuppressWarnings("all")
     public void forward(String path,HttpRequest httpRequest,HttpResponse httpResponse){
         File file = new File("webapps" + path);
         String name1 = file.getName().substring(file.getName().lastIndexOf(".") + 1);

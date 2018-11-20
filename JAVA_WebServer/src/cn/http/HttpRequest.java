@@ -18,7 +18,7 @@ public class HttpRequest {
     private Map<String,String> parame = new HashMap<>();
 
     //解析URL
-    public void paresUrl(){
+    private void paresUrl(){
         int index = this.getUrl().indexOf("?");
         if(index == -1){
             //如果没有？，表示没有数据传送到服务器

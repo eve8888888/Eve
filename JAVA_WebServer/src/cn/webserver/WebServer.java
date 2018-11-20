@@ -11,7 +11,6 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-
 /**
  * @Author: Eve
  * @Date: 2018/11/19 8:31
@@ -50,6 +49,7 @@ public class WebServer {
     }
 
     //响应页面
+    @SuppressWarnings("all")
     public void forward(String path, HttpRequest httpRequest, HttpResponse httpResponse) {
         File file = new File("webapps" + path);
         String name1 = file.getName().substring(file.getName().lastIndexOf(".") + 1);

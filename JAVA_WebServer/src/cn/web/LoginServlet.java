@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
             System.out.println("***********" + name);
             System.out.println("***********" + ps);
             BufferedReader br = new BufferedReader(new FileReader("user.txt"));
-            String str = "";
+            String str;
             boolean flag = false;
             while ((str = br.readLine()) != null) {
                 String data[] = str.split("#");

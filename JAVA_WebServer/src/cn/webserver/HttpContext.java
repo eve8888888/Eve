@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
+/*
  * @Author: Eve
  * @Date: 2018/11/19 16:30
  * @Version 1.0
@@ -25,10 +25,10 @@ public class HttpContext {
         init();
     }
     private  static Map<String,String> mimeType;
-    public static void init(){
+    private static void init(){
         setMimeType();
     }
-    public static void setMimeType(){
+    private static void setMimeType(){
         mimeType = new HashMap<>();
         //解析web.xml文件
         SAXReader reader = new SAXReader();

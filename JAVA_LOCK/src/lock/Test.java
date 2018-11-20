@@ -10,13 +10,18 @@ class myThread implements Runnable{
     private int t = 100;
     @Override
     public void run() {
-        while (t > 0) {
+        for (int i = 0; i<t;i++){
+            sale();
+        }
+    }
+    public synchronized void sale(){
+        if(t > 0){
             try {
-                Thread.sleep(2);
+                Thread.sleep(20);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println(Thread.currentThread().getName() + "剩余" + --t + "张票");
+            System.out.println(Thread.currentThread().getName() + "剩余" + t-- + "张票");
         }
     }
 }
