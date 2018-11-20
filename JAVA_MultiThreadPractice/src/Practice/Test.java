@@ -1,5 +1,9 @@
 package Practice;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+
 /**
  * @Author: Eve
  * @Date: 2018/11/18 12:35
@@ -11,18 +15,23 @@ class Print{
 
     }
 }
-class myThread implements Runnable{
-    @Override
-    public void run() {
-        System.out.println();
-    }
-}
+//class myThread implements Callable <String>{
+//    @Override
+//    public String call() throws Exception {
+//        System.out.println("xiancheng");
+//        return "Callable接口实现多线程";
+//    }
+//}
+
+
 
 class Test{
     public static void main(String[] args) {
-        myThread myThread = new myThread();
-        Thread thread = new Thread(myThread);
-        thread.start();
+//        new Thread(()->{
+//            System.out.println("线程");
+//        }).start();
+        Thread.currentThread().setName("A");
+        System.out.println(Thread.currentThread().getName());
     }
 }
 

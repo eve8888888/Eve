@@ -2,6 +2,8 @@ package cn.http;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author: Eve
@@ -12,6 +14,34 @@ public class HttpRequest {
     private String method;
     private String url;
     private String protocol;
+    private String requestLine;
+    private Map<String,String> parame = new HashMap<>();
+
+    //解析URL
+    public void paresUrl(){
+        int index = this.getUrl().indexOf("?");
+        if(index == -1){
+            //如果没有？，表示没有数据传送到服务器
+            this.requestLine = this.url;
+        }else {
+            //有？，有数据传入服务器
+            this.requestLine = this.getUrl().substring(0,index);
+            String queryStr = this.getUrl().substring(index + 1);
+            String[] paras = queryStr.split("&");
+            for (String str :
+                    paras) {
+                String[] data = str.split("=");
+                parame.put(data[0], data[1]);
+            }
+        }
+    }
+    public String getParame(String name) {
+        return parame.get(name);
+    }
+
+    public String getRequestLine() {
+        return requestLine;
+    }
 
     public HttpRequest(InputStream in) {
         parseRequestLine(in);
@@ -49,6 +79,7 @@ public class HttpRequest {
             String[] str = stringBuilder.toString().split("\\s");
             method = str[0];
             url = str[1];
+            this.paresUrl();
             protocol = str[2];
         } catch (IOException e) {
             e.printStackTrace();

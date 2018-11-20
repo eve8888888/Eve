@@ -1,19 +1,21 @@
 package webserver;
 
 import cn.http.HttpRequest;
+import cn.http.HttpResponse;
+import org.apache.commons.codec.digest.DigestUtils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.URLDecoder;
+
 
 /**
  * @Author: Eve
  * @Date: 2018/11/19 8:31
  * @Version 1.0
  */
+
 public class WebServer {
     //定义套接字对象
     private ServerSocket serverSocket;
@@ -61,37 +63,48 @@ class Handler implements Runnable{
         System.out.println("处理客户端请求。。。");
         //需要输入流
         try {
-            HttpRequest httpRequest = new HttpRequest(socket.getInputStream());
+            InputStream inputStream = socket.getInputStream();
+            HttpRequest httpRequest = new HttpRequest(inputStream);
             OutputStream outputStream = socket.getOutputStream();
+            HttpResponse httpResponse = new HttpResponse(outputStream);
+
             System.out.println(httpRequest.getMethod());
             System.out.println(httpRequest.getUrl());
             System.out.println(httpRequest.getProtocol());
-            //定义响应文件对象
-            File file = new File("webapps" +httpRequest.getUrl());
-            //判断文件是否存在
-            if(file.exists()){
-                outputStream.write("HTTP/1.1 200 OK".getBytes("ISO8859-1"));
-                outputStream.write(13);
-                outputStream.write(10);
-                outputStream.write("Content-Type:text/html".getBytes("ISO8859-1"));
-                outputStream.write(13);
-                outputStream.write(10);
-                outputStream.write(("Content-Length:"+file.length()).getBytes("ISO8859-1"));
-                outputStream.write(13);
-                outputStream.write(10);
-                outputStream.write(13);
-                outputStream.write(10);
-                //先读后写
-                //获取输入流对象
-                FileInputStream fin = new FileInputStream(file);
-                byte[] buff = new byte[1024 * 4];
-                //把文件中数据读到数组中
-                int len = fin.read(buff);
-                //把数组中数据写到客户端
-                outputStream.write(buff,0,len);
-            }
 
-            socket.getInputStream().close();
+            if("/myweb/reg".equals(httpRequest.getRequestLine())){
+                String name = httpRequest.getParame("name");
+                name = URLDecoder.decode(name,"UTF-8");
+                String ps = httpRequest.getParame("ps");
+
+                String psMd5 = DigestUtils.md5Hex(ps);
+                System.out.println(name +"," + psMd5);
+                //把数据写到数据文件
+                PrintStream out = new PrintStream(new FileOutputStream("user.txt",true));
+                out.println(name +"#" + psMd5);
+                out.close();
+                //返回响应页面到客户端
+                File file = new File("webapps" + "/myweb/regok.html");
+                String name1 = file.getName().substring(file.getName().lastIndexOf(".") + 1);
+                httpResponse.setCotentType(HttpContext.getMimeType(name1));
+                httpResponse.setCotentLength((int) file.length());
+                httpResponse.setEntity(file);
+                httpResponse.flush();
+            }else {
+                //定义响应文件对象
+                File file = new File("webapps" + httpRequest.getUrl());
+                //判断文件是否存在
+                if (file.exists()) {
+
+                    httpResponse.setEntity(file);
+                    String name = file.getName().substring(file.getName().lastIndexOf(".") + 1);
+                    httpResponse.setCotentType(HttpContext.getMimeType(name));
+                    httpResponse.setCotentLength((int) file.length());
+                    httpResponse.flush();
+                }
+                outputStream.close();
+                inputStream.close();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }finally {

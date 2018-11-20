@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f30961e-0b4d-47bf-852d-bd05d4e55e2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/JAVA_MultiThreadPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/src/Practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/JAVA_ProducerAndConsume.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/src/producerAndconsume/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/web/reg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_WebServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/http/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webserver/WebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapps/myweb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/src/testwaitandnotify/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/src/testwaitandnotify/Test.java" afterDir="false" />
+    <list default="true" id="2f30961e-0b4d-47bf-852d-bd05d4e55e2b" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/cn/http/HttpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webserver/HttpContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/myweb/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/myweb/regok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_LOCK/src/lock/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_LOCK/src/lock/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MulThread/src/mulThread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MulThread/src/mulThread/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/src/Practice/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/src/Practice/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/src/webtest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/src/webtest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA_WebServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_WebServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/http/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/http/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webserver/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/webserver/WebServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,62 +27,129 @@
     <session id="-293955335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="java" value="7" />
+          <entry key="class" value="3" />
+          <entry key="html" value="4" />
+          <entry key="java" value="11" />
+          <entry key="png" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="CLASS" value="3" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="20" />
-          <entry key="java" value="1362" />
+          <entry key="class" value="1" />
+          <entry key="html" value="134" />
+          <entry key="java" value="3100" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="20" />
-          <entry key="JAVA" value="1362" />
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="134" />
+          <entry key="JAVA" value="3100" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="JAVA_WebServer" />
+    <favorites_list name="JAVA_WebServer">
+      <favorite_root url="file://$PROJECT_DIR$/lib" module="JAVA_WebServer" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/lib/dom4j-1.6.1.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/lib/commons-codec-1.10.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/webserver/WebServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="494">
+              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#455#479#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#474#498#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webapps/myweb/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapps/myweb/regok.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapps/myweb/reg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webserver/HttpContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/http/HttpResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-494">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#1828#1829#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,18 +157,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/http/HttpRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="437">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +195,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/webserver/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/cn/http/HttpRequest.java" />
         <option value="$PROJECT_DIR$/webapp/myweb/index.html" />
+        <option value="$PROJECT_DIR$/src/cn/http/HttpContext.java" />
+        <option value="$PROJECT_DIR$/src/webserver/HttpContext.java" />
+        <option value="$PROJECT_DIR$/src/cn/http/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/cn/http/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/webapps/myweb/reg.html" />
+        <option value="$PROJECT_DIR$/webapps/myweb/regok.html" />
         <option value="$PROJECT_DIR$/src/webserver/WebServer.java" />
       </list>
     </option>
@@ -182,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,53 +252,24 @@
               <item name="JAVA_WebServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="JAVA_WebServer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JAVA_WebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_WebServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_WebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_WebServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_WebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_WebServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webserver" type="462c0819:PsiDirectoryNode" />
-              <item name="WebServer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JAVA_WebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_WebServer" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_WebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_WebServer" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="myweb" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542599412590" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542686113619" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
@@ -344,28 +377,33 @@
       <option name="presentableId" value="Default" />
       <updated>1542587471109</updated>
       <workItem from="1542587473181" duration="11786000" />
+      <workItem from="1542607788402" duration="10255000" />
+      <workItem from="1542672956189" duration="11052000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1542607857476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542607857476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11786000" />
+    <option name="totallyTimeSpent" value="33093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" sideWeight="0.50208336" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.44895104" visible="true" weight="0.22788204" />
-      <window_info id="Structure" order="1" sideWeight="0.55104893" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.41958043" visible="true" weight="0.23458445" />
+      <window_info id="Structure" order="1" sideWeight="0.5804196" side_tool="true" weight="0.23458445" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.52916664" side_tool="true" weight="0.23458445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
@@ -373,15 +411,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +432,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/annotation/Target.java">
@@ -419,51 +466,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webserver/HttpRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/webserver/HttpRequest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/com/sun/net/httpserver/HttpServer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="247">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/http/HttpContext.java" />
+    <entry file="file://$PROJECT_DIR$/webapps/myweb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/plugin.jar!/com/sun/deploy/uitoolkit/impl/awt/javaglow300.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11990">
+          <caret line="128" column="27" lean-forward="true" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapps/myweb/regok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapps/myweb/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webserver/HttpContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/http/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="437">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-codec-1.10.jar!/org/apache/commons/codec/binary/Hex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-codec-1.10.jar!/org/apache/commons/codec/digest/DigestUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="107" column="34" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="34" />
+          <folding>
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#2498#2499#0" expanded="true" />
+            <element signature="e#2556#2557#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#2883#2884#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webserver/WebServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="494">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#455#479#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#474#498#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapps/myweb/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -524,7 +675,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

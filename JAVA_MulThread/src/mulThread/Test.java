@@ -7,33 +7,33 @@ package mulThread;
  */
 
 
-
-class myThread implements Runnable{
-    int t = 10;
-    @Override
-    public void run() {
-        for (int i = 0;i<10;i++){
-            sale();
-        }
-    }
-    public synchronized void sale(){
-        if(t > 0){
-            System.out.println(Thread.currentThread().getName() + "剩余" + t--);
-        }
-    }
-}
-class Test{
-    public static void main(String[] args) {
-        myThread mt = new myThread();
-        Thread thread = new Thread(mt,"黄牛A");
-        Thread thread2 = new Thread(mt,"黄牛B");
-        Thread thread3 = new Thread(mt,"黄牛C");
-        thread.start();
-        thread2.start();
-        thread3.start();
-
-    }
-}
+//
+//class myThread implements Runnable{
+//    int t = 10;
+//    @Override
+//    public void run() {
+//        for (int i = 0;i<10;i++){
+//            sale();
+//        }
+//    }
+//    public synchronized void sale(){
+//        if(t > 0){
+//            System.out.println(Thread.currentThread().getName() + "剩余" + t--);
+//        }
+//    }
+//}
+//class Test{
+//    public static void main(String[] args) {
+//        myThread mt = new myThread();
+//        Thread thread = new Thread(mt,"黄牛A");
+//        Thread thread2 = new Thread(mt,"黄牛B");
+//        Thread thread3 = new Thread(mt,"黄牛C");
+//        thread.start();
+//        thread2.start();
+//        thread3.start();
+//
+//    }
+//}
 
 //class myThread extends Thread{
 //    @Override
@@ -88,15 +88,35 @@ class Test{
 //    }
 //}
 
-//class myThread implements Runnable{
-//    public boolean flag = false;
-//
-//    @Override
-//    public void run() {
-//            for (int i = 0; i < 300000000; i++)
-//                    System.out.println(Thread.currentThread().getName() + "线程" + i);
-//    }
-//}
+class myThread implements Runnable{
+    private boolean flag = true;
+    @Override
+    public void run() {
+        int i = 0;
+        for (i = 0;i<10;i++) {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName() + i);
+        }
+    }
+}
+
+public class Test{
+    public static void main(String[] args) {
+        myThread mt = new myThread();
+        Thread thread = new Thread(mt,"A");
+        thread.start();
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        thread.interrupt();
+    }
+}
 //public class Test {
 //    public static void main(String[] args) throws InterruptedException {
 //        System.out.println("main线程开始。。。");
