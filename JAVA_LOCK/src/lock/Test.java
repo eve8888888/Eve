@@ -10,15 +10,13 @@ class myThread implements Runnable{
     private int t = 100;
     @Override
     public void run() {
-        synchronized (this) {
-            while (t > 0) {
-                try {
-                    Thread.sleep(2);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                System.out.println(Thread.currentThread().getName() + "剩余" + --t + "张票");
+        while (t > 0) {
+            try {
+                Thread.sleep(2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
+            System.out.println(Thread.currentThread().getName() + "剩余" + --t + "张票");
         }
     }
 }
