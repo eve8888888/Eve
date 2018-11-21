@@ -2,8 +2,7 @@ package cn.webserver;
 
 import cn.http.HttpRequest;
 import cn.http.HttpResponse;
-import cn.web.LoginServlet;
-import cn.web.RegisterServlet;
+import cn.http.HttpServlet;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -41,24 +40,11 @@ public class WebServer {
                 Thread thread = new Thread(new Handler(socket));
                 thread.start();
                 //关闭
-
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
-
-    //响应页面
-    @SuppressWarnings("all")
-    public void forward(String path, HttpRequest httpRequest, HttpResponse httpResponse) {
-        File file = new File("webapps" + path);
-        String name1 = file.getName().substring(file.getName().lastIndexOf(".") + 1);
-        httpResponse.setCotentType(HttpContext.getMimeType(name1));
-        httpResponse.setCotentLength((int) file.length());
-        httpResponse.setEntity(file);
-        httpResponse.flush();
-    }
-
     public static void main(String[] args) {
         WebServer webServer = new WebServer();
         webServer.start();
@@ -74,7 +60,6 @@ public class WebServer {
         //线程体方法
         @Override
         public void run() {
-
             //处理客户端请求
             System.out.println("处理客户端请求。。。");
             //需要输入流
@@ -88,17 +73,25 @@ public class WebServer {
                 System.out.println(httpRequest.getUrl());
                 System.out.println(httpRequest.getProtocol());
 
-                if ("/myweb/reg".equals(httpRequest.getRequestLine())) {
-                    RegisterServlet rs = new RegisterServlet();
-                    rs.service(httpRequest, httpResponse);
-                } else if ("/myweb/login".equals(httpRequest.getRequestLine())) {
-                    new LoginServlet().service(httpRequest, httpResponse);
+                if(ServletContext.map.containsKey(httpRequest.getRequestLine())){
+                    try {
+                        //得到字符串类型的类名
+                        String className = ServletContext.map.get(httpRequest.getRequestLine());
+                        //返回class类型的对象，Class完成反射功能的类
+                        Class clazz = Class.forName(className);
+                        //创建对象
+                        HttpServlet servlet = (HttpServlet)clazz.newInstance();
+                        servlet.service(httpRequest, httpResponse);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 } else {
                     //定义响应文件对象
                     File file = new File("webapps" + httpRequest.getUrl());
                     //判断文件是否存在
                     if (file.exists()) {
-                        forward(httpRequest.getUrl(), httpRequest, httpResponse);
+                        //forward(httpRequest.getUrl(), httpRequest, httpResponse);
+                        httpResponse.sendRedirect(httpRequest.getUrl());
                     }
                     outputStream.close();
                     inputStream.close();

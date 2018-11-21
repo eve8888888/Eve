@@ -18,7 +18,7 @@ import java.net.URLDecoder;
  */
 public class RegisterServlet extends HttpServlet {
     @Override
-    public void service(HttpRequest request, HttpResponse response) {
+    public void doGet(HttpRequest request, HttpResponse response) {
         String name = request.getParame("name");
         try {
             name = URLDecoder.decode(name,"UTF-8");
@@ -39,6 +39,6 @@ public class RegisterServlet extends HttpServlet {
         out.println(name +"#" + psMd5);
         out.close();
         //返回响应页面到客户端
-        forward("/myweb/regok.html",request,response);
+        response.sendRedirect("/myweb/regok.html");
     }
 }

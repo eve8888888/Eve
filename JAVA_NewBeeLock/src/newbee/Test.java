@@ -76,11 +76,12 @@ class NewBeeLock implements Lock{
 
 class myThread implements Runnable{
     NewBeeLock lock = new NewBeeLock();
+
     @Override
     public void run() {
         try {
             lock.lock();
-            Thread.sleep(3000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }finally {

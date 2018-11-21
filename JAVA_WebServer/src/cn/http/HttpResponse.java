@@ -1,5 +1,7 @@
 package cn.http;
 
+import cn.webserver.HttpContext;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -76,5 +78,14 @@ public class HttpResponse {
     }
     public void setCotentLength(int len){
         headers.put("Content-Length",len+"");
+    }
+
+    public void sendRedirect(String path){
+        File file = new File("webapps" + path);
+        String name1 = file.getName().substring(file.getName().lastIndexOf(".") + 1);
+        setCotentType(HttpContext.getMimeType(name1));
+        setCotentLength((int) file.length());
+        setEntity(file);
+        flush();
     }
 }

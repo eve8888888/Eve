@@ -11,49 +11,41 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*
+/**
  * @Author: Eve
- * @Date: 2018/11/19 16:30
+ * @Date: 2018/11/21 8:25
  * @Version 1.0
  */
-
-/**
- *  封装web应用的介质类型
- */
-
-public class HttpContext {
+public class ServletContext {
+    public static Map<String,String> map;
     static {
         init();
     }
-
-    private  static Map<String,String> mimeType;
-    private static void init(){
-        setMimeType();
+    public static void init(){
+        setUrlMapping();
     }
-    private static void setMimeType(){
-        mimeType = new HashMap<>();
+    //把请求的路径（映射名）和类之间建立关联关系
+    public static void setUrlMapping(){
+        map = new HashMap<>();
+
         //解析web.xml文件
         SAXReader reader = new SAXReader();
         try {
             //把文件解析成文档
-            Document document = reader.read(new FileInputStream("conf/web.xml"));
+            Document document = reader.read(new FileInputStream("conf/ServletMapping.tld"));
             //获取根节点对象
             Element root = document.getRootElement();
             //获取子节点
             @SuppressWarnings("all")
-            List<Element> list = root.elements("mime-mapping");
+            List<Element> list = root.elements("mapping");
             for (Element e :
                     list) {
-                String name = e.elementText("extension");
-                String value = e.elementText("mime-type");
-                mimeType.put(name,value);
+                String name = e.attributeValue("uri");
+                String value = e.attributeValue("className");
+                map.put(name,value);
             }
         } catch (DocumentException | FileNotFoundException e) {
             e.printStackTrace();
         }
     }
-    public static String getMimeType(String name){
-        return mimeType.get(name);
-    }
 }
-
