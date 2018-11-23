@@ -4,7 +4,6 @@ import cn.http.HttpRequest;
 import cn.http.HttpResponse;
 import cn.http.HttpServlet;
 import org.apache.commons.codec.digest.DigestUtils;
-
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
@@ -20,13 +19,14 @@ public class RegisterServlet extends HttpServlet {
     @Override
     public void doGet(HttpRequest request, HttpResponse response) {
         String name = request.getParame("name");
+        String tel = request.getParame("tel");
+        String email = request.getParame("email");
         try {
             name = URLDecoder.decode(name,"UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         String ps = request.getParame("ps");
-
         String psMd5 = DigestUtils.md5Hex(ps);
         System.out.println(name +"," + psMd5);
         //把数据写到数据文件
@@ -36,7 +36,7 @@ public class RegisterServlet extends HttpServlet {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        out.println(name +"#" + psMd5);
+        out.println(name +"#" + psMd5 + "#" + tel + "#" + email);
         out.close();
         //返回响应页面到客户端
         response.sendRedirect("/myweb/regok.html");

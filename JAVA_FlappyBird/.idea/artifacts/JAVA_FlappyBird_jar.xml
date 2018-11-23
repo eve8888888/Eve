@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JAVA_FlappyBird:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JAVA_FlappyBird_jar</output-path>
+    <root id="archive" name="JAVA_FlappyBird.jar">
+      <element id="directory" name="META-INF" />
+      <element id="module-output" name="JAVA_FlappyBird" />
+    </root>
+  </artifact>
+</component>

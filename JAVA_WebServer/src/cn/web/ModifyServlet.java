@@ -26,24 +26,21 @@ public class ModifyServlet extends HttpServlet {
 
             BufferedReader br = new BufferedReader(new FileReader("user.txt"));
             String str;
+            String temp = "";
             boolean flag = false;
-            PrintStream out = new PrintStream(new FileOutputStream("temp.txt"));
             while ((str = br.readLine()) != null) {
-
                 String data[] = str.split("#");
                 if (name.equals(data[0]) && psMd5.equals(data[1])) {
-                    out.println(name+"#"+newps);
+                    temp = temp + data[0] +"#"+ newps +"#"+ data[2] +"#"+ data[3] + "\n";
                     flag = true;
                 }else {
-                    out.println(str);
+                    temp = temp + str + "\n";
                 }
             }
-            out.close();
             br.close();
-            File file = new File("temp.txt");
-            File file2 = new File("user.txt");
-            file2.delete();
-            file.renameTo( file2);
+            PrintStream out = new PrintStream(new FileOutputStream("user.txt"));
+            out.println(temp);
+            out.close();
             if (flag) {
                 response.sendRedirect("/myweb/modifyok.html");
             } else {

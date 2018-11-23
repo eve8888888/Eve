@@ -2,24 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99868c9d-73ba-47ba-94ac-6b4160a2f100" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/JAVA_MultiThreadPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MultiThreadPractice/src/Practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_ProducerAndConsume.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/producerAndconsume/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/web/reg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_FlappyBird/.idea/artifacts/JAVA_FlappyBird_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MulThread/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_WebServer/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_FlappyBird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_FlappyBird/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MulThread/src/mulThread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MulThread/src/mulThread/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/producerAndconsume/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/producerAndconsume/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/out/production/JAVA_WaitAndNotify_Test/testwaitandnotify/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/out/production/JAVA_WaitAndNotify_Test/testwaitandnotify/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/out/production/JAVA_WaitAndNotify_Test/testwaitandnotify/myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/out/production/JAVA_WaitAndNotify_Test/testwaitandnotify/myThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/src/testwaitandnotify/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WaitAndNotify_Test/src/testwaitandnotify/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/src/webtest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/src/webtest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/WebTest/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/JAVA_WebServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/JAVA_WebServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/conf/ServletMapping.tld" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/conf/ServletMapping.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/ModifyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/webserver/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/webserver/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/webapps/myweb/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/webapps/myweb/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/.vs/jiecheng/v14/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/.vs/jiecheng/v14/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/Debug/jiecheng.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/Debug/jiecheng.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/Debug/jiecheng.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/Debug/jiecheng.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/Debug/jiecheng.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/Debug/jiecheng.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/jiecheng.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/jiecheng.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/jiecheng/1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/jiecheng/1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/1.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/1.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/jiecheng.log" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/jiecheng.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/vc140.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/vc140.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../jiecheng/jiecheng/Debug/vc140.pdb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,29 +44,32 @@
     <session id="-526471721">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="550" />
+          <entry key="java" value="858" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="550" />
+          <entry key="JAVA" value="858" />
         </counts>
       </usages-collector>
     </session>
@@ -64,14 +79,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/producerAndconsume/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="110">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#1077#1078#0" expanded="true" />
                 <element signature="e#1129#1130#0" expanded="true" />
                 <element signature="e#1211#1212#0" expanded="true" />
                 <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9025">
+              <caret line="502" selection-start-line="502" selection-end-line="502" />
             </state>
           </provider>
         </entry>
@@ -144,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542515733603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542878620861" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -197,17 +223,31 @@
       <updated>1542511548929</updated>
       <workItem from="1542511550907" duration="3840000" />
       <workItem from="1542516555300" duration="2056000" />
+      <workItem from="1542876105023" duration="2976000" />
+      <workItem from="1542880541522" duration="39000" />
+      <workItem from="1542880702816" duration="1805000" />
+      <workItem from="1542896320052" duration="193000" />
+      <workItem from="1542939232031" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5896000" />
+    <option name="totallyTimeSpent" value="11618000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,11 +256,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.65314686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.63356644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -260,14 +300,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/producerAndconsume/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="110">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="e#1077#1078#0" expanded="true" />
             <element signature="e#1129#1130#0" expanded="true" />
             <element signature="e#1211#1212#0" expanded="true" />
             <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9025">
+          <caret line="502" selection-start-line="502" selection-end-line="502" />
         </state>
       </provider>
     </entry>

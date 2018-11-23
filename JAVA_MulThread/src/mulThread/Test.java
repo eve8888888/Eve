@@ -7,27 +7,32 @@ package mulThread;
  */
 
 
-//
+
 //class myThread implements Runnable{
-//    int t = 10;
+//    int t = 100;
 //    @Override
 //    public void run() {
-//        for (int i = 0;i<10;i++){
+//        for (int i = 0;i<100;i++){
 //            sale();
 //        }
 //    }
 //    public synchronized void sale(){
 //        if(t > 0){
-//            System.out.println(Thread.currentThread().getName() + "å‰©ä½™" + t--);
+//            try {
+//                Thread.sleep(20);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            System.out.println(Thread.currentThread().getName() + "Ê£Óà" + t-- + "ÕÅÆ±");
 //        }
 //    }
 //}
 //class Test{
 //    public static void main(String[] args) {
 //        myThread mt = new myThread();
-//        Thread thread = new Thread(mt,"é»„ç‰›A");
-//        Thread thread2 = new Thread(mt,"é»„ç‰›B");
-//        Thread thread3 = new Thread(mt,"é»„ç‰›C");
+//        Thread thread = new Thread(mt,"´°¿ÚA");
+//        Thread thread2 = new Thread(mt,"´°¿ÚB");
+//        Thread thread3 = new Thread(mt,"´°¿ÚC");
 //        thread.start();
 //        thread2.start();
 //        thread3.start();
@@ -42,8 +47,9 @@ package mulThread;
 //    }
 //}
 
+
 /**
- * åŒæ­¥ä»£ç å—
+ * Í¬²½´úÂë¿é
  */
 //class myThread implements Runnable{
 //    int t = 100;
@@ -57,7 +63,7 @@ package mulThread;
 //                    } catch (InterruptedException e) {
 //                        e.printStackTrace();
 //                    }
-//                    System.out.println(Thread.currentThread().getName() + "å‰©ä½™" + t-- + "ç¥¨");
+//                    System.out.println(Thread.currentThread().getName() + "Ê£Óà" + t-- + "Æ±");
 //                }
 //            }
 //        }
@@ -66,9 +72,9 @@ package mulThread;
 //class Test{
 //    public static void main(String[] args) {
 //        myThread mt = new myThread();
-//        Thread thread = new Thread(mt,"é»„ç‰›A");
-//        Thread thread2 = new Thread(mt,"é»„ç‰›B");
-//        Thread thread3 = new Thread(mt,"é»„ç‰›C");
+//        Thread thread = new Thread(mt,"»ÆÅ£A");
+//        Thread thread2 = new Thread(mt,"»ÆÅ£B");
+//        Thread thread3 = new Thread(mt,"»ÆÅ£C");
 //        thread.start();
 //        thread2.start();
 //        thread3.start();
@@ -88,44 +94,46 @@ package mulThread;
 //    }
 //}
 
-class myThread implements Runnable{
-    private boolean flag = true;
-    @Override
-    public void run() {
-        int i = 0;
-        for (i = 0;i<10;i++) {
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println(Thread.currentThread().getName() + i);
-        }
-    }
-}
-
-public class Test{
-    public static void main(String[] args) {
-        myThread mt = new myThread();
-        Thread thread = new Thread(mt,"A");
-        thread.start();
-        try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        thread.interrupt();
-    }
-}
+//class myThread implements Runnable{
+//
+//    @Override
+//    public void run() {
+//        int i = 0;
+//        for (i = 0;i<10;i++) {
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                System.out.println("³ÌĞò½áÊø");
+//                System.out.println(Thread.currentThread().isInterrupted());
+//                return;
+//            }
+//            System.out.println(Thread.currentThread().getName()+"Õı³£Ö´ĞĞ" + i + Thread.currentThread().isInterrupted());
+//        }
+//    }
+//}
+//
+//public class Test{
+//    public static void main(String[] args) {
+//        myThread mt = new myThread();
+//        Thread thread = new Thread(mt,"A");
+//        thread.start();
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        thread.interrupt();
+//    }
+//}
 //public class Test {
 //    public static void main(String[] args) throws InterruptedException {
-//        System.out.println("mainçº¿ç¨‹å¼€å§‹ã€‚ã€‚ã€‚");
+//        System.out.println("mainÏß³Ì¿ªÊ¼¡£¡£¡£");
 //        myThread mt = new myThread();
 //        Thread thread = new Thread(mt,"a");
 //        thread.start();
 //        Thread.sleep(1000);
 //        mt.flag = true;
-//        System.out.println("mainçº¿ç¨‹ç»“æŸã€‚ã€‚ã€‚");
+//        System.out.println("mainÏß³Ì½áÊø¡£¡£¡£");
 //    }
 //}
 //
@@ -134,9 +142,9 @@ public class Test{
 //    @Override
 //    public String call() {
 //        for(int i = 0;i <10 ;i++){
-//            System.out.println("è¿˜å‰©ä¸‹"+ t-- +"ç¥¨");
+//            System.out.println("»¹Ê£ÏÂ"+ t-- +"Æ±");
 //        }
-//        return "ç¥¨å–å®Œäº†";
+//        return "Æ±ÂôÍêÁË";
 //    }
 //}
 //public class Test {
@@ -156,9 +164,9 @@ public class Test{
 //    @Override
 //    public String call() {
 //        for(int i = 0;i <10 ;i++){
-//            System.out.println("è¿˜å‰©ä¸‹"+ t-- +"ç¥¨");
+//            System.out.println("»¹Ê£ÏÂ"+ t-- +"Æ±");
 //        }
-//        return "ç¥¨å–å®Œäº†";
+//        return "Æ±ÂôÍêÁË";
 //    }
 //}
 //public class Test {
@@ -171,3 +179,124 @@ public class Test{
 //        System.out.println(futureTask.get());
 //    }
 //}
+
+
+
+
+//class MyThread implements Runnable {
+//    private boolean flag = true;
+//    @Override
+//    public void run() {
+//        int i = 1;
+//        while (flag) {
+//            try {
+//                /**
+//                 * ÕâÀï×èÈûÖ®ºó,Ïß³Ì±»µ÷ÓÃÁËinterrupte()·½·¨£¬
+//                 * Çå³ıÖĞ¶Ï±êÖ¾£¬¾Í»áÅ×³öÒ»¸öÒì³£
+//                 * java.lang.InterruptedException
+//                 */
+//
+//                System.out.println(Thread.currentThread().isInterrupted());
+//                Thread.sleep(1000);
+//                boolean bool = Thread.currentThread().isInterrupted();
+//                if (bool) {
+//                    System.out.println("·Ç×èÈûÇé¿öÏÂÖ´ĞĞ¸Ã²Ù×÷¡£¡£¡£Ïß³Ì×´Ì¬" + bool);
+//                    break;
+//                }
+//                System.out.println("µÚ"+i+"´ÎÖ´ĞĞ£¬Ïß³ÌÃû³ÆÎª:"+Thread.currentThread().getName());
+//                i++;
+//            } catch (InterruptedException e) {
+//                System.out.println("ÍË³öÁË");
+//                /**
+//                 * ÕâÀïÍË³ö×èÈû×´Ì¬£¬ÇÒÖĞ¶Ï±êÖ¾±»ÏµÍ³»á×Ô¶¯Çå³ı£¬
+//                 * ²¢ÇÒÖØĞÂÉèÖÃÎªfalse£¬ËùÒÔ´Ë´¦boolÎªfalse
+//                 */
+//                boolean bool = Thread.currentThread().isInterrupted();
+//                System.out.println(bool);
+//                    //ÍË³örun·½·¨£¬ÖĞ¶Ï½ø³Ì
+//                return;
+//            }
+//        }
+//    }
+//}
+//public class Test {
+//    public static void main(String[] args) throws InterruptedException {
+//        MyThread myThread = new MyThread();
+//        Thread thread1 = new Thread(myThread, "×ÓÏß³ÌA");
+//        thread1.start();
+//        Thread.sleep(3000);
+//        thread1.interrupt();
+//        System.out.println("´úÂë½áÊø");
+//    }
+//}
+
+
+//class Sync {
+//    public synchronized void test() {
+//            System.out.println("test·½·¨¿ªÊ¼£¬µ±Ç°Ïß³ÌÎª " + Thread.currentThread().getName());
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            System.out.println("test·½·¨½áÊø£¬µ±Ç°Ïß³ÌÎª " + Thread.currentThread().getName());
+//    }
+//}
+//class MyThread extends Thread {
+//    Sync sync;
+//    public MyThread(Sync sync){
+//        this.sync = sync;
+//    }
+//    @Override
+//    public void run() {
+//        sync.test();
+//    }
+//}
+//public class Test {
+//    public static void main(String[] args) {
+//        Sync sync = new Sync() ;
+//        for (int i = 0; i < 3 ; i++) {
+//            Thread thread = new MyThread(sync) ;
+//            thread.start();
+//        }
+//    }
+//}
+
+
+class Sync {
+    public  synchronized void test() {
+            System.out.println("test·½·¨¿ªÊ¼£¬µ±Ç°Ïß³ÌÎª " + Thread.currentThread().getName());
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("test·½·¨½áÊø£¬µ±Ç°Ïß³ÌÎª " + Thread.currentThread().getName());
+    }
+}
+
+class MyThread extends Thread {
+    @Override
+    public void run() {
+        Sync sync = new Sync() ;
+        sync.test();
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        for (int i = 0; i < 3 ; i++) {
+            Thread thread = new MyThread() ;
+            thread.start();
+        }
+    }
+}
+
+//public class Test{
+//    public static void main(String[] args) {
+//        fun();
+//    }
+//    public synchronized static void fun(){
+//        System.out.println("hello world");
+//    }
+//}
+

@@ -1,22 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<stdlib.h>
-int fun(int i) {
-	int sum = 1;
-	for (int k = 1; k <= i; k++) {
-		sum *= k;
+int  fun() {
+	int sum = 0;
+	int ret = 1;
+	int j;
+	int k;
+	for (j = 1; j <= 3; j++) {
+		for (k = 1; k <= j; k++) {
+			ret *= k;
+		}
+		sum += ret;
+		ret = 1;
 	}
 	return sum;
 }
-int fun_digui(int i) {
-	if (i == 1) {
-		return 1;
-	}
-	return fun_digui(i - 1) * i;
-}
 int main() {
-	printf("%d \n", fun(10));
-	printf("%d \n", fun_digui(10));
+	printf("%d \n", fun());
 	system("pause");
 	return 0;
 }

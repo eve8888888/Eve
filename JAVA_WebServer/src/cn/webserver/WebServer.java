@@ -90,7 +90,6 @@ public class WebServer {
                     File file = new File("webapps" + httpRequest.getUrl());
                     //判断文件是否存在
                     if (file.exists()) {
-                        //forward(httpRequest.getUrl(), httpRequest, httpResponse);
                         httpResponse.sendRedirect(httpRequest.getUrl());
                     }
                     outputStream.close();
@@ -108,5 +107,7 @@ public class WebServer {
         }
     }
 }
+
+
 
 

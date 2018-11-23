@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6414663-eafd-4cbd-9380-06f175a2e4fb" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/JAVA_ProducerAndConsume.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/src/producerAndconsume/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_FlappyBird/.idea/artifacts/JAVA_FlappyBird_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MulThread/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_WebServer/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_FlappyBird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_FlappyBird/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MulThread/src/mulThread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MulThread/src/mulThread/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testwaitandnotify/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testwaitandnotify/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebProjectTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebProjectTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/JAVA_WebServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/JAVA_WebServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/conf/ServletMapping.tld" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/conf/ServletMapping.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/ModifyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/web/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/webserver/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/src/cn/webserver/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/webapps/myweb/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/webapps/myweb/reg.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,9 +29,10 @@
     <session id="1374744296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,25 +47,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="393" />
+          <entry key="java" value="399" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="393" />
+          <entry key="JAVA" value="399" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testwaitandnotify/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="79">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -124,6 +132,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542512652185" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA_ProducerAndConsume" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -174,44 +183,44 @@
       <option name="presentableId" value="Default" />
       <updated>1542507239729</updated>
       <workItem from="1542507241955" duration="3988000" />
+      <workItem from="1542874624212" duration="1189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3988000" />
+    <option name="totallyTimeSpent" value="5177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35944057" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35104895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,8 +232,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/testwaitandnotify/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="79">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
