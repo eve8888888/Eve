@@ -1,0 +1,96 @@
+#p1{
+    color: orange;
+    font-size: 50px;
+}
+.s1{
+    color: cadetblue;
+    font-size: 50px;
+}
+.s2{
+    color: hotpink;
+    font-size: 50px;
+}
+#out1{
+    color: red;
+    
+}
+#a1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#a2{
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    position: relative;
+    left: 200px;
+    top: -100px;
+}
+#a3{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    position: relative;
+    left: 300px;
+    top: -200px;
+}
+#a4{
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    position: relative;
+    left: 100px;
+    top: -200px;
+}
+#a5{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    position: relative;
+    left: 200px;
+    top: -300px;
+}#a6{
+     width: 100px;
+     height: 100px;
+     background: forestgreen;
+     position: relative;
+     left: 300px;
+     top: -400px;
+ }
+#a7{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    position: relative;
+    left: 100px;
+    top: -400px;
+}
+#a8{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    position: relative;
+    left: 200px;
+    top: -500px;
+}
+#a9 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left: 300px;
+    top: -600px;
+}
+#t1{
+    width: 400px;
+    height: 300px;
+    background: antiquewhite;
+    position: relative;
+    left: 500px;
+    top: -700px;
+}
+

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="1.css"/>
+        <script type="text/javascript">
+         var flag = true;
+        function check(){
+            var na = document.getElementById("na");
+            var psd = document.getElementById("ps");
+            var one = document.getElementById("out1");
+            if(na.value == "111" || na.value == "222"){
+                one.innerHTML = " 用户存在";
+                flag = false;
+            }else{
+                one.innerHTML = " 可以使用" ;
+                flag = true;
+            }
+        }
+        function clickbutton1(){
+            if(flag){
+                window.location.href="loginok.html";
+            }else{
+                window.location.href="test2.html";
+            }
+        }
+        </script>
+    </head>
+    <body>
+            账号:<input type="text" name="name" value="" id="na" onblur="check()"><span id="out1"></span><br/>
+            密码:<input type="password" name="ps" value="" id="ps"><br/>
+        <button onclick="clickbutton1()">注册</button>
+    </body>
+</html>

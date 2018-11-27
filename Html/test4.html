@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function click1(){
+                alert(parseInt(document.getElementById("n").value) + parseInt(document.getElementById("n2").value));
+            }
+            function onm(){
+                document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\4de577521dd2fc05f7c387845379c972.jpg";
+            }
+            function ond(){
+                document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\5a24c0d6c6e41.jpg";
+            }
+            function onu(){
+                document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\58fb1b95533bf.jpg";
+            }
+            function ono(){
+                document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\10341T306-7.jpg";
+            }
+            function dbcl(){
+                document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\88U3PP7M3357.jpg";
+            }
+        </script>
+    </head>
+    <body>   
+        账号:<input type="text" name="name" id="n" value=""><br> 
+        密码:<input type="text" name="ps" id="n2" value=""><br>        
+        <button onclick="click1()">
+            登录
+        </button>
+        <img src="C:\Users\Eve\Pictures\wallpaper\5a127cc0b24eb.jpg" id="pic1" width="800" height="500" 
+        onmousemove="onm()"
+        onmouseout="ono()"
+        onmousedown="ond()"
+        onmouseup="onu()"
+        ondblclick="dbcl()"
+        
+        >
+    </body>
+</html>
