@@ -13,24 +13,25 @@ import java.util.List;
 public class StudentServer {
     DBdao db = new DBdao();
     public void addStudent(Student s){
-        db.update("insert into dept values("+s.getDeptno()+",'"+s.getDname()+"','"+s.getLoc()+"')");
+        db.update("insert into student values("+s.getSid()+",'"+s.getSname()+"','"+s.getAddress()+"')");
     }
     public void delStudent(int i){
-        db.update("delete from dept where deptno = "+i+"");
+        db.update("delete from student where sid = "+i+"");
     }
-    public void updataStudent(int s,String str){
-        db.update("update dept set loc = '"+str+"' where deptno = "+s+"");
+    public void updateStudent(int s,String str){
+        db.update("update student set address = '"+str+"' where sid = "+s+"");
     }
     public Student selectStudent(int i){
-        return (Student) db.findById("select * from dept where deptno = "+i+"");
+        return (Student) db.findById("select * from student where sid = "+i+"");
     }
-    public List<Student> findAll(){
-        return db.findAll("select * from dept");
+    public List findAll(){
+        return db.findAll("select * from student");
     }
     public int count(){
-        return db.count("select count(*) from dept");
+        return db.count("select count(*) from student");
     }
-    public List<Student> find(int i,int j){
-        return db.findAll("select * from dept limit "+i+","+j+"");
+    public List find(int i,int j){
+
+        return db.findAll("select * from student limit "+i+","+j+"");
     }
 }

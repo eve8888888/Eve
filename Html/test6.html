@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		function click1(){
+			var bu = document.getElementById("bu");
+			if(bu.innerHTML == "开灯"){
+				document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\88U3PP7M3357.jpg";
+				bu.innerHTML = "关灯";
+			}
+			else {
+				document.getElementById("pic1").src = "C:\\Users\\Eve\\Pictures\\wallpaper\\10341T306-7.jpg";
+				bu.innerHTML = "开灯";
+			}
+		}
+	</script>
+</head>
+<body>
+	<img src="C:\Users\Eve\Pictures\wallpaper\10341T306-7.jpg" width="800" height="500" id="pic1">
+	<button id="bu" onclick="click1()">
+		开灯
+	</button>
+</body>
+</html>

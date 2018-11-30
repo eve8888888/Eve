@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="1.css"/>
+        <script type="text/javascript">
+         var flag = true;
+        function check(){
+            var na = document.getElementById("na");
+            var psd = document.getElementById("ps");
+            var one = document.getElementById("out1");
+            var reg = /^1[358]\d{9}@\.(cn|com)$/;
+            if(reg.test(na.value)){
+                one.innerHTML = "正确";
+            }else {
+                one.innerHTML = "错误";
+            }
+        }
+        </script>
+    </head>
+    <body>
+        邮箱:<input type="text" name="name" value="" id="na" onblur="check()"><span id="out1"></span><br/>
+    </body>
+</html>

@@ -6,42 +6,28 @@ package com.bean;
  * @Version 1.0
  */
 public class Student {
-    private int deptno;
-    private String dname;
-    private String loc;
+    private int sid;
+    private String sname;
+    private String address;
 
-    public Student(int deptno, String dname, String loc) {
-        this.deptno = deptno;
-        this.dname = dname;
-        this.loc = loc;
+    public Student(int sid, String sname, String address) {
+        this.sid = sid;
+        this.sname = sname;
+        this.address = address;
+    }
+    public int getSid() {
+        return sid;
     }
 
-    public int getDeptno() {
-        return deptno;
+    public String getSname() {
+        return sname;
     }
 
-    public void setDeptno(int deptno) {
-        this.deptno = deptno;
+    public String getAddress() {
+        return address;
     }
-
-    public String getDname() {
-        return dname;
-    }
-
-    public void setDname(String dname) {
-        this.dname = dname;
-    }
-
-    public String getLoc() {
-        return loc;
-    }
-
-    public void setLoc(String loc) {
-        this.loc = loc;
-    }
-
     @Override
     public String toString() {
-        return deptno + "\t\t" + dname + "\t\t" + loc + "\t\t";
+        return sid + "\t\t" + sname + "\t\t" + address + "\t\t";
     }
 }
