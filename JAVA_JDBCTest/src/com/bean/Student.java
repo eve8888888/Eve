@@ -1,4 +1,4 @@
-package com.student;
+package com.bean;
 
 /**
  * @Author: Eve
@@ -38,5 +38,10 @@ public class Student {
 
     public void setLoc(String loc) {
         this.loc = loc;
+    }
+
+    @Override
+    public String toString() {
+        return deptno + "\t\t" + dname + "\t\t" + loc + "\t\t";
     }
 }

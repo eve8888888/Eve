@@ -13,7 +13,6 @@ public class DButil {
     private static final String URL = "jdbc:mysql://localhost:3306/test";
     private static final String NAME = "root";
     private static final String PWD = "1234";
-
     static {
         try {
             Class.forName(DRIVER);
@@ -32,35 +31,27 @@ public class DButil {
     }
 
     public static void closeResource(Connection connection, Statement statement, ResultSet re) {
-        if (connection != null) {
-            try {
+        try {
+            if (!connection.isClosed()) {
                 connection.close();
                 System.out.println("Connection释放成功");
-            } catch (SQLException e) {
-                e.printStackTrace();
+            } else {
+                System.out.println("Connection已经关闭");
             }
-        } else {
-            //System.out.println("Connection释放失败");
-        }
-        if (statement != null) {
-            try {
+            if (!statement.isClosed()) {
                 statement.close();
                 System.out.println("Statement释放成功");
-            } catch (SQLException e) {
-                e.printStackTrace();
+            } else {
+                System.out.println("Statement已经关闭");
             }
-        } else {
-            //System.out.println("Statement释放失败");
-        }
-        if (re != null) {
-            try {
+            if (re != null &&!re.isClosed()) {
                 re.close();
                 System.out.println("ResultSet释放成功");
-            } catch (SQLException e) {
-                e.printStackTrace();
+            } else {
+                System.out.println("ResultSet已经关闭");
             }
-        } else {
-            //System.out.println("ResultSet释放失败");
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }
