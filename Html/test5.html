@@ -7,19 +7,19 @@
             var na = document.getElementById("na");
             var psd = document.getElementById("ps");
             var one = document.getElementById("out1");
-            var reg = /^1[358]\d{9}$/;
-            // if(na.value == "111" || na.value == "222"){
-            //     one.innerHTML = " 用户存在";
-            //     flag = false;
-            // }else{
-            //     one.innerHTML = " 可以使用" ;
-            //     flag = true;
-            // }
-            if(reg.test(na.value)){
-                one.innerHTML = "正确";
-            }else {
-                one.innerHTML = "错误";
+            //var reg = /^1[358]\d{9}$/;
+            if(na.value == "111" || na.value == "222"){
+                one.innerHTML = " 用户存在";
+                flag = false;
+            }else{
+                one.innerHTML = " 可以使用" ;
+                flag = true;
             }
+            // if(reg.test(na.value)){
+            //     one.innerHTML = "正确";
+            // }else {
+            //     one.innerHTML = "错误";
+            // }
         }
         function clickbutton1(){
             if(flag){
@@ -32,7 +32,7 @@
     </head>
     <body>
             账号:<input type="text" name="name" value="" id="na" onblur="check()"><span id="out1"></span><br/>
-<!--             密码:<input type="password" name="ps" value="" id="ps"><br/>
-        <button onclick="clickbutton1()">注册</button> -->
+            密码:<input type="password" name="ps" value="" id="ps"><br/>
+        <button onclick="clickbutton1()">注册</button>
     </body>
 </html>

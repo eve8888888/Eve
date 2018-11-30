@@ -20,8 +20,10 @@ class NewBeeLock implements Lock{
             if(arg != 1){
                 throw  new RuntimeException("arg不为1！");
             }
+            //使用CAS尝试改变同步状态
             if(compareAndSetState(0,1)){
                 //当前线程成功获取到锁
+                //将持有锁的线程设为当前线程
                 setExclusiveOwnerThread(Thread.currentThread());
                 return true;
             }
@@ -33,6 +35,7 @@ class NewBeeLock implements Lock{
             if(getState() == 0){
                 throw new IllegalMonitorStateException();
             }
+            //设置锁不被任何线程持有
             setExclusiveOwnerThread(null);
             setState(0);
             return true;
@@ -81,7 +84,7 @@ class myThread implements Runnable{
     public void run() {
         try {
             lock.lock();
-            Thread.sleep(10000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }finally {
@@ -89,6 +92,8 @@ class myThread implements Runnable{
         }
     }
 }
+
+
 public class Test {
     public static void main(String[] args) {
         myThread mt = new myThread();
