@@ -1,4 +1,4 @@
-package com.server;
+package com.service;
 
 import com.bean.Student;
 import com.dao.DBdao;
@@ -31,7 +31,6 @@ public class StudentServer {
         return db.count("select count(*) from student");
     }
     public List find(int i,int j){
-
         return db.findAll("select * from student limit "+i+","+j+"");
     }
 }

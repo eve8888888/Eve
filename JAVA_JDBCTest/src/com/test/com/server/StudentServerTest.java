@@ -1,11 +1,10 @@
 package com.server;
 
 import com.bean.Student;
+import com.service.StudentServer;
 import org.junit.Test;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.*;
 
 public class StudentServerTest {
 
@@ -46,10 +45,12 @@ public class StudentServerTest {
 
     @Test
     public void find() {
-        System.out.println("input:");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("input:");
         int i = scanner.nextInt();
         int j = scanner.nextInt();
+//        int i = 2;
+//        int j = 8;
         for (Object s:
                 ss.find(i,j)) {
             System.out.println(s);

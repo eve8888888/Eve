@@ -1,11 +1,22 @@
 <html>
 <head>
     <body>
- <!--超链接-->
-    <a href="test2.html">
-        <img src="C:\\Users\\Eve\\Pictures\\wallpaper\\58fb1b95533bf.jpg" width="1500" height="900">
-    </a>
- <!--这是图片-->
+<script type="text/javascript">
+ 
+    function display(id){  
+        var traget=document.getElementById(id);  
+        if(traget.style.display=="none"){  
+            traget.style.display="";  
+        }else{  
+            traget.style.display="none";  
+      }  
+   }  
+</script>
+<input type="submit" value="在线支付" onclick="display('lb')">
+<div id="lb" style="display:none">
+	<font>div属性：style ="display:none" 默认隐藏div</font>
+</div>
+
 
 </body>
 </head>
