@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JAVA_PhoneShop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JAVA_PhoneShop_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JAVA_PhoneShop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JAVA_PhoneShop" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

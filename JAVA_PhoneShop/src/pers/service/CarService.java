@@ -21,7 +21,7 @@ public class CarService {
      * u_id VARCHAR(50) COMMENT'关联的用户id',
      */
     //查询单个
-    public Car findById(int gid, String uid){
+    public Car findById(int gid,String uid){
         String sql = "select * from car where gid="+gid+" and u_id = '"+uid+"'";
         Car c = (Car) db.findById(sql);
         return c;
@@ -53,9 +53,30 @@ public class CarService {
         return query;
     }
 
+    //查询提交预备订单
+    public List<Car> findByIdReadyOrder(String cid){
+        String sql = "select * from car where cid in ("+cid+")";
+        List<Car> query = db.query(sql);
+        return query;
+    }
+
+    //查询提交预备订单
+    public List<Car> findByIdReadyOrder2(String cid){
+        String sql = "select * from car where cid in ("+cid+")";
+        List<Car> query = db.query(sql);
+        return query;
+    }
+
+
     //批量删除
     public void delsCar(String cids){
         String sql = "DELETE FROM car WHERE cid IN ("+cids+")";
+        db.update(sql);
+    }
+
+    //单个删除
+    public void delCar(int cids){
+        String sql = "DELETE FROM car WHERE cid="+cids+"";
         db.update(sql);
     }
 
