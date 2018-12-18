@@ -5,8 +5,10 @@ import pers.car.entity.Car;
 import pers.car.util.DButil;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -53,6 +55,31 @@ public class CarDaoImpl implements ICarDao {
 
     @Override
     public List<Car> findAllCar() {
-        return null;
+        DButil db = DButil.getInstance();
+
+        db.connection();
+        String sql = "select * from car_table";
+        db.preparedStatement(sql);
+        ResultSet rs = db.exeuteQuery();
+        List<Car> list = new ArrayList<>();
+        Car car = null;
+        try {
+            while (rs.next()){
+                car = new Car(
+                        rs.getInt("car_id"),
+                        rs.getString("car_brand"),
+                        rs.getString("car_color"),
+                        rs.getDate("car_date"),
+                        rs.getDouble("car_price"),
+                        rs.getString("car_pic"),
+                        rs.getString("car_desc")
+                );
+                list.add(car);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        db.close();
+        return list;
     }
 }

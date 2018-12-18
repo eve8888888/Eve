@@ -6,6 +6,10 @@ import org.junit.After;
 import pers.car.dao.ICarDao;
 import pers.car.dao.Impl.CarDaoImpl;
 import pers.car.entity.Car;
+import pers.car.service.ICarService;
+import pers.car.service.Impl.CarServiceImpl;
+
+import java.util.List;
 
 /** 
 * CarDaoImpl Tester. 
@@ -32,17 +36,7 @@ public void after() throws Exception {
 @Test
 public void testAddCar() throws Exception { 
 //TODO: Test goes here...
-    ICarDao iCarDao = new CarDaoImpl();
-
-//    Car car = new Car(
-//            2,"斯柯达",
-//            "红色",null,
-//            11200.2,"car.png","car");
-//    iCarDao.addCar(car);
-    Car car3 = new Car(
-            3,"斯柯达777",
-            "黑色",null,
-            11200.2,"car.png","car");
-    iCarDao.addCar(car3);
+    ICarService i = new CarServiceImpl();
+    System.out.println(i.findAllCar());
 }
 } 

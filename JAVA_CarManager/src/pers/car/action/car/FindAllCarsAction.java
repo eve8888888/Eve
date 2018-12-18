@@ -1,11 +1,16 @@
 package pers.car.action.car;
 
-import javax.servlet.ServletException;
+import com.google.gson.Gson;
+import pers.car.entity.Car;
+import pers.car.service.ICarService;
+import pers.car.service.Impl.CarServiceImpl;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @Author: Eve
@@ -15,12 +20,17 @@ import java.io.IOException;
 @WebServlet("/findAllCars.action")
 public class FindAllCarsAction extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        ICarService i = new CarServiceImpl();
+        Gson g = new Gson();
+        List<Car> list = i.findAllCar();
+        resp.getWriter().print(g.toJson(list));
+        System.out.println("****************************************");
     }
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         doPost(req,resp);
     }
+
 }

@@ -1,6 +1,7 @@
 package pers.car.service.Impl;
 
 import pers.car.dao.ICarDao;
+import pers.car.dao.Impl.CarDaoImpl;
 import pers.car.entity.Car;
 import pers.car.service.ICarService;
 
@@ -14,8 +15,8 @@ import java.util.List;
 public class CarServiceImpl implements ICarService {
     private ICarDao iCarDao;
 
-    public CarServiceImpl(ICarDao iCarDao) {
-        this.iCarDao = iCarDao;
+    public CarServiceImpl() {
+        iCarDao = new CarDaoImpl();
     }
 
     @Override
