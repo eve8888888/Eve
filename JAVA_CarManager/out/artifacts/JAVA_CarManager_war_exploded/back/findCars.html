@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汽车页面</title>
+    <link rel="stylesheet" href="../bootstrap/common/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/plugin/sweetalert/css/sweetalert2.css">
+    <link rel="stylesheet" href="../bootstrap/plugin/fileinput/css/fileinput.css">
+    <link rel="stylesheet" href="../bootstrap/plugin/table/css/bootstrap-table.css">
+    <link rel="stylesheet" href="../bootstrap/plugin/validator/css/bootstrapValidator.css">
+
+    <script src="../bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="../bootstrap/common/js/bootstrap.js"></script>
+    <script src="../bootstrap/plugin/fileinput/js/fileinput.js"></script>
+    <script src="../bootstrap/plugin/fileinput/js/zh.js"></script>
+    <script src="../bootstrap/plugin/table/js/bootstrap-table(1).js"></script>
+    <script src="../bootstrap/plugin/table/js/bootstrap-table-zh-CN.js"></script>
+    <script src="../bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+</head>
+<body>
+<div class="panel panel-default">
+    <div class="panel-heading">Panel heading without title</div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-4">
+                <input placeholder="汽车品牌" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <select class="form-control" id="searchPrice">
+                    <option value="">请选择</option>
+                    <option value=""><10</option>
+                    <option value="">10-20</option>
+                    <option value="">20-30</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-block btn-primary" id="searchBut">
+                    <span class="glyphicon glyphicon-search">查询</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btn-group" role="group" aria-label="...">
+    <button type="button" id="addBtn" class="btn btn-success"><span class="glyphicon glyphicon-plus">添加</span></button>
+    <button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-pencil">修改</span></button>
+    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove">删除</span></button>
+</div>
+    <div>
+        <table id="table_id"></table>
+    </div>
+<!-- 添加模态框 -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="addModalLabel">添加车辆信息</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="addForm">
+                    <div class="form-group">
+                        <label class="control-label col-md-3">汽车品牌</label>
+                        <div class="col-md-9">
+                            <input type="text" name="brand" placeholder="汽车品牌" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">汽车颜色</label>
+                        <div class="col-md-9">
+                            <input type="text" name="color" placeholder="汽车颜色" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">出厂日期</label>
+                        <div class="col-md-9">
+                            <input type="date" name="date" placeholder="汽车出厂日期" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">车辆价格</label>
+                        <div class="col-md-9">
+                            <input type="text" name="price" placeholder="汽车价格" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">车辆照片</label>
+                        <div class="col-md-9">
+                            <input type="text" name="price" placeholder="车辆照片" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">车辆描述</label>
+                        <div class="col-md-9">
+                            <textarea class="form-control" rows="6" name="desc" placeholder="车辆信息描述"></textarea>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="control-label col-md-3">
+                    <input type="submit" value="添加"
+                           class="btn btn-success"
+                           id="addfirmBtn">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $("#table_id").bootstrapTable({
+            url:"../findAllCars.action",
+            pagination:true,
+            pageSize:5,
+            pageList:[1,2,3,4,5],
+            search:true,
+            showRefresh:true,
+            showColumns:true,
+            toolbar:"#toolbar",
+            columns:[
+                {checkbox:true},
+                {field:'id',title:'编号'},
+                {field:'brand',title:'品牌'},
+                {field:'color',title:'颜色'},
+                {field:'date',title:'时间'},
+                {field:'price',title:'价格'},
+                {field:'pic',title:'图片'},
+                {field:'desc',title:'描述'}
+                ]
+        })});
+    $("#addBtn").click(function () {
+        $("#addModal").modal('show')
+    })
+</script>
+<script>
+
+</script>
+</body>
+</html>
