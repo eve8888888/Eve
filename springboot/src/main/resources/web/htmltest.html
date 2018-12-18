@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="../jquery-3.2.1.js"></script>
 </head>
 <body>
-<h1>AAA</h1>
-<h2>AAA</h2>
-<h3>AAA</h3>
-<h4>AAA</h4>
+<p id="p1">A</p>
+<p id="p2">B</p>
+<p id="p3">C</p>
+<p>input:<input type="text" id="test"value=""></p>
+<button id="but1">追加</button>
+<button id="but2">移除</button>
+<button id="but3">隐藏</button>
+<button id="but4">显示</button>
+<div id="div1">
+</div>
+<style>
+    #div1{
+        width: 80px;
+        height: 80px;
+        background-color: mediumaquamarine;
+        box-shadow: 10px 10px 20px #888888;
+    }
+</style>
+<script>
+    $(function () {
+        $("#but1").click(function () {
+            $("#p2").append("<b>追加内容</b>")
+        })
+    })
+</script>
+<script>
+    $(function () {
+        $("#but2").click(function () {
+            $("#p1").remove()
+        })
+    })
+</script>
+<script>
+    $(function () {
+        $("#but3").click(function () {
+            $("#p3").hide()
+        })
+    })
+</script>
+<script>
+    $(function () {
+        $("#but4").click(function () {
+            $("#p3").show()
+        })
+    })
+</script>
 </body>
 </html>

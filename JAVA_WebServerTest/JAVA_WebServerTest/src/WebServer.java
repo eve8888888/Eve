@@ -50,15 +50,15 @@ public class WebServer {
             os.write("Server:gybs\r\n".getBytes());
             os.write(("Date:"+new Date()+"\r\n").getBytes());
             os.write("\r\n".getBytes());
-//            os.write("<h1>hello!</h1>".getBytes());
-//            os.write("<h3>HTTP服务器ddddd!</h3>".getBytes("utf-8"));
-            File file = new File("myweb/index.html");
-            FileInputStream fin = new FileInputStream(file);
-            byte[] buff = new byte[1024 * 4];
+           os.write("<h1>hello!</h1>".getBytes());
+            os.write("<h3>HTTP服务器ddddd!</h3>".getBytes("utf-8"));
+            //File file = new File("myweb/index.html");
+            //FileInputStream fin = new FileInputStream(file);
+            //byte[] buff = new byte[1024 * 4];
             //把文件中数据读到数组中
-            int len = fin.read(buff);
+            //int len = fin.read(buff);
             //把数组中数据写到客户端
-            os.write(buff,0,len);
+            //os.write(buff,0,len);
             os.close();
             socket.close();
 

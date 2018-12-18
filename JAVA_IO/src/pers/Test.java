@@ -1,6 +1,9 @@
 package pers;
 
+import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
+
 import java.io.*;
+
 
 /**
  * @Author: Eve
@@ -11,7 +14,7 @@ import java.io.*;
 //    public static void main(String[] args) {
 //        File file = new File("C:"+File.separator+"Users"
 //                +File.separator+"Eve"+File.separator+
-//                "Desktop"+File.separator+"www"+File.separator+"bit"+File.separator+
+//                "Desktop"+File.separator+
 //                "java"+File.separator+"javaIO.java");
 //        if(!file.getParentFile().exists()){
 //            file.getParentFile().mkdirs();
@@ -30,9 +33,7 @@ import java.io.*;
 //public class Test{
 //    static int count = 0;
 //    public static void main(String[] args) {
-//        File file = new File("C:"+File.separator+"Users"+File.separator
-//                +"Eve"+File.separator+"Documents"+File.separator
-//                +"Tencent Files"+File.separator+"617222911"+File.separator+"FileRecv");
+//        File file = new File("D:\\");
 //        new Thread(()->{
 //            long start = System.currentTimeMillis();
 //            findAllFile(file);
@@ -49,9 +50,11 @@ import java.io.*;
 //        }else {
 //            if(file.exists() && file.isDirectory()){
 //                File[] files = file.listFiles();
-//                for (File file1 :
-//                        files) {
-//                    findAllFile(file1);
+//                if (files!=null) {
+//                    for (File file1 :
+//                            files) {
+//                        findAllFile(file1);
+//                    }
 //                }
 //            }
 //        }
@@ -63,13 +66,50 @@ public class Test {
         File file = new File("C:"+File.separator+"Users"+File.separator+"Eve"+File.separator
                 +"Desktop"+File.separator+"test.txt");
         //2.取得指定文件的输出流
-        OutputStream out = new FileOutputStream(file,true);
-        String str = "字节输出流";
-        String str2 = "Test";
-        //3.进行数据输出
-        out.write(str.getBytes());
-        out.write(str2.getBytes());
+        PrintStream printStream = new PrintStream(file);
+        printStream.print("这是打印流");
         //4.关闭流
-        out.close();
+        printStream.close();
+        InputStream in = new FileInputStream(file);
+        byte[] b = new byte[1024];
+        while (in.read(b) != -1){
+            System.out.print(new String(b));
+        }
+        in.close();
+        file.delete();
     }
 }
+//public class Test {
+//    public static void main(String[] args) throws Exception{
+//        //1.取得终端对象
+//        File file = new File("C:"+File.separator+"Users"+File.separator+"Eve"+File.separator
+//                +"Desktop"+File.separator+"test.txt");
+//        //2.取得指定文件的输出流
+//        Writer writer = new FileWriter(file);
+//        Writer writer1 = new OutputStreamWriter(new FileOutputStream(file));
+//        String str = "字符输出流";
+//        //3.进行数据输出
+//        writer.write(str);
+//        //4.关闭流
+//        writer.close();
+//        Reader reader = new FileReader(file);
+//        char[] c = new char[1];
+//        while (reader.read(c) != -1){
+//            System.out.print(c);
+//        }
+//        reader.close();
+//        file.delete();
+//    }
+//}
+//public class Test {
+//    public static void main(String[] args) throws Exception{
+//        String str = "HELLO　WORLD";
+//        InputStream in = new ByteArrayInputStream(str.getBytes());
+//        OutputStream out = new ByteArrayOutputStream();
+//        int temp = 0;
+//        while ((temp = in.read())!=-1){
+//            out.write(Character.toLowerCase(temp));
+//        }
+//        System.out.println(out);
+//    }
+//}

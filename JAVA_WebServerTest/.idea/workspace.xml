@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a2b01c-0554-439c-8ce2-dc1efc126bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVAA_JSTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAA_JSTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAA_JSTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAA_JSTest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAA_JSTest/JAVA_JSTest/JAVA_JSTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_WebServerTest/JAVA_WebServerTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_WebServerTest/myweb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/src/producerAndconsume/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_ProducerAndConsume/src/producerAndconsume/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MVC_Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/jquery-3.2.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_IO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_IO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_IO/out/production/JAVA_IO/pers/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_IO/out/production/JAVA_IO/pers/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_IO/src/pers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_IO/src/pers/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_ThreadPool/src/pers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_ThreadPool/src/pers/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_WebServerTest/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_WebServerTest/WebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/resources/web/htmltest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/resources/web/htmltest.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,45 +23,69 @@
     <session id="-1634735187">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="56" />
-          <entry key="java" value="41" />
+          <entry key="java" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="56" />
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="52" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JAVA_WebServerTest/myweb/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/DualStackPlainSocketImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -86,8 +106,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java" />
         <option value="$PROJECT_DIR$/JAVA_WebServerTest/myweb/index.html" />
+        <option value="$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java" />
       </list>
     </option>
   </component>
@@ -97,9 +117,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="-35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="32" />
     <option name="width" value="1750" />
     <option name="height" value="985" />
   </component>
@@ -117,6 +137,16 @@
               <item name="JAVA_WebServerTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="JAVA_WebServerTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JAVA_WebServerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_WebServerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="myweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_WebServerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_WebServerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,15 +158,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542979609060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544767370044" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA_WebServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="background.image.plus" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,17 +206,20 @@
       <updated>1542977395090</updated>
       <workItem from="1542977396287" duration="2500000" />
       <workItem from="1543216893576" duration="282000" />
+      <workItem from="1544755662594" duration="187000" />
+      <workItem from="1544767180536" duration="778000" />
+      <workItem from="1544768422545" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2782000" />
+    <option name="totallyTimeSpent" value="4002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="80" y="26" width="1400" height="788" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.2533512" />
-      <window_info id="Structure" order="1" sideWeight="0.5020979" side_tool="true" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49312976" visible="true" weight="0.2928465" />
+      <window_info id="Structure" order="1" sideWeight="0.5068702" side_tool="true" visible="true" weight="0.2928465" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -233,10 +266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="456" column="20" selection-start-line="456" selection-start-column="13" selection-end-line="456" selection-end-column="20" />
-          <folding>
-            <element signature="e#15850#15851#0" expanded="true" />
-            <element signature="e#15881#15882#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -247,20 +276,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JAVA_WebServerTest/myweb/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA_WebServerTest/src/WebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
