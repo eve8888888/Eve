@@ -16,6 +16,7 @@
     <script src="../bootstrap/plugin/table/js/bootstrap-table(1).js"></script>
     <script src="../bootstrap/plugin/table/js/bootstrap-table-zh-CN.js"></script>
     <script src="../bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+    <script src="../bootstrap/plugin/sweetalert/js/sweetalert2.js"></script>
 </head>
 <body>
 <div class="panel panel-default">
@@ -43,13 +44,13 @@
 </div>
 <div class="btn-group" role="group" aria-label="...">
     <button type="button" id="addBtn" class="btn btn-success"><span class="glyphicon glyphicon-plus">添加</span></button>
-    <button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-pencil">修改</span></button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove">删除</span></button>
+    <button type="button" id="upBtn" class="btn btn-warning"><span class="glyphicon glyphicon-pencil">修改</span></button>
+    <button type="button" id="delBtn" class="btn btn-danger"><span class="glyphicon glyphicon-remove">删除</span></button>
 </div>
     <div>
         <table id="table_id"></table>
     </div>
-<!-- 添加模态框 -->
+ <!--添加模态框 -->
 <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -86,7 +87,11 @@
                     <div class="form-group">
                         <label class="control-label col-md-3">车辆照片</label>
                         <div class="col-md-9">
-                            <input type="text" name="price" placeholder="车辆照片" class="form-control">
+                            <input type="file" name="upload" id="uploadid" multiple>
+                            <input type="text" name="pic"
+                                   placeholder="车辆照片"
+                                   class="form-control"
+                            id="picid">
                         </div>
                     </div>
                     <div class="form-group">
@@ -100,18 +105,112 @@
             </div>
             <div class="modal-footer">
                 <div class="control-label col-md-3">
-                    <input type="submit" value="添加"
+                    <input type="button" value="添加"
                            class="btn btn-success"
-                           id="addfirmBtn">
+                           id="confirBtn">
                 </div>
             </div>
         </div>
     </div>
 </div>
+<div class="modal fade" id="upModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="upModalLabel">添加车辆信息</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="upForm">
+                    <div class="form-group">
+                        <label class="control-label col-md-3">汽车ID</label>
+                        <div class="col-md-9">
+                            <input type="text" name="id" placeholder="汽车ID" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">汽车品牌</label>
+                        <div class="col-md-9">
+                            <input type="text" name="upbrand" placeholder="汽车品牌" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">汽车颜色</label>
+                        <div class="col-md-9">
+                            <input type="text" name="upcolor" placeholder="汽车颜色" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">出厂日期</label>
+                        <div class="col-md-9">
+                            <input type="date" name="update" placeholder="汽车出厂日期" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">车辆价格</label>
+                        <div class="col-md-9">
+                            <input type="text" name="upprice" placeholder="汽车价格" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">车辆照片</label>
+                        <div class="col-md-9">
+                            <input type="file" name="upload" id="upuploadid" multiple>
+                            <input type="text" name="uppic"
+                                   placeholder="车辆照片"
+                                   class="form-control"
+                                   id="uppicid">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">车辆描述</label>
+                        <div class="col-md-9">
+                            <textarea class="form-control" rows="6" name="updesc" placeholder="车辆信息描述"></textarea>
+                        </div>
+                    </div>
 
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="control-label col-md-3">
+                    <input type="button" value="修改"
+                           class="btn btn-success"
+                           id="upconfirBtn">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="delModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="delModalLabel">删除车辆信息</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="delForm">
+                    <div class="form-group">
+                        <label class="control-label col-md-3">汽车ID</label>
+                        <div class="col-md-9">
+                            <input type="text" name="delid" placeholder="汽车ID" class="form-control">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="control-label col-md-3">
+                    <input type="button" value="删除"
+                           class="btn btn-success"
+                           id="delconfirBtn">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script>
     $(function () {
-        $("#table_id").bootstrapTable({
+        $('#table_id').bootstrapTable({
             url:"../findAllCars.action",
             pagination:true,
             pageSize:5,
@@ -133,10 +232,65 @@
         })});
     $("#addBtn").click(function () {
         $("#addModal").modal('show')
-    })
+    });
+    $("#upBtn").click(function () {
+        $("#upModal").modal('show')
+    });
+    $("#delBtn").click(function () {
+        $("#delModal").modal('show')
+    });
+    $("#confirBtn").click(function () {
+        var attr = $("#addForm").serialize();
+        $.ajax({
+            type:'post',
+            url:'../addCar.action',
+            data:attr,
+            success:function (msg) {
+                swal({
+                    title:'添加提示',
+                    text:msg,
+                    type:'success'
+                });
+                $("#addModal").modal('hide');
+                $("#table_id").bootstrapTable('refresh');
+            }
+        })
+    });
+    $("#upconfirBtn").click(function () {
+        var attr = $("#upForm").serialize();
+        $.ajax({
+            type:'post',
+            url:'../updateCar.action',
+            data:attr,
+            success:function (msg) {
+                swal({
+                    title:'修改提示',
+                    text:msg,
+                    type:'success'
+                });
+                $("#upModal").modal('hide');
+                $("#table_id").bootstrapTable('refresh');
+            }
+        })
+    });
+    $("#delconfirBtn").click(function () {
+        var attr = $("#delForm").serialize();
+        $.ajax({
+            type:'post',
+            url:'../delCar.action',
+            data:attr,
+            success:function (msg) {
+                swal({
+                    title:'删除提示',
+                    text:msg,
+                    type:'success'
+                });
+                $("#delModal").modal('hide');
+                $("#table_id").bootstrapTable('refresh');
+            }
+        })
+    });
 </script>
-<script>
 
-</script>
 </body>
 </html>
