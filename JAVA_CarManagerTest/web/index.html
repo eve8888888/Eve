@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汽车信息前台界面</title>
+    <link rel="stylesheet" href="bootstrap/common/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/plugin/table/css/bootstrap-table.css">
+    <link rel="stylesheet" href="bootstrap/plugin/fileinput/css/fileinput.css">
+    <link rel="stylesheet" href="bootstrap/plugin/sweetalert/css/sweetalert2.css">
+    <link rel="stylesheet" href="bootstrap/plugin/validator/css/bootstrapValidator.css">
+    <link rel="stylesheet" href="bootstrap/qiche/css/global.css">
+    <!--js包-->
+
+    <script src="bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/common/js/bootstrap.js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table(1).js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table-zh-CN.js"></script>
+    <script src="bootstrap/plugin/fileinput/js/fileinput.js"></script>
+    <script src="bootstrap/plugin/fileinput/js/zh.js"></script>
+    <script src="bootstrap/plugin/sweetalert/js/sweetalert2.js"></script>
+    <script src="bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+    <script src="bootstrap/plugin/validator/js/language/zh_CN.js"></script>
+    <script src="bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+    <script src="bootstrap/plugin/validator/js/language/zh_CN.js"></script>
+    <script src="bootstrap/common/js/jquery.cookie.js"></script>
+
+</head>
+
+<body>
+<!--导航条第一部分-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">首页</a>
+        </div>
+
+        <!--//导航条汽车查询和用户的注册和登陆信息-->
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-4"><input placeholder="汽车品牌" class="form-control" id="searchName"></div>
+                <div class="col-md-2">
+                    <button class="btn btn-block btn-primary" id="searchBtn"><span
+                            class="glyphicon glyphicon-search"></span>汽车信息查询
+                    </button>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="back/managelogin.html" id="managerloginid">管理员登录</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="back/userlogin.html" id="userloginid">用户登录</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="back/userregist.html" id="userregistid">用户注册</a>
+                    </li>
+                </ul>
+                <!---->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" id="userlogoutid">退出登录</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--//导航条第二部分，汽车品牌分类等信息。-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">汽车品牌分类 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="background-color: #101010;">
+                            <li><a href="#" style="color: #999999">奥迪</a></li>
+                            <li><a href="#" style="color: #999999">宝马</a></li>
+                            <li><a href="#" style="color: #999999">奔驰</a></li>
+                            <li><a href="#" style="color: #999999">兰博基尼</a></li>
+                            <li><a href="#" style="color: #999999">迈凯轮</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">车型分类<span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="background-color: #101010;">
+                            <li><a href="#" style="color: #999999">家用轿车</a></li>
+                            <li><a href="#" style="color: #999999">大中型豪华轿车</a></li>
+                            <li><a href="#" style="color: #999999">跑车</a></li>
+                            <li><a href="#" style="color: #999999">两厢汽车</a></li>
+                            <li><a href="#" style="color: #999999">SUV</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">汽车新闻</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#">汽车视频观看</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">用户个人中心</a>
+                    </li>
+                    <li><a href="#">业务展示</a></li>
+                    <li><a href="front/userOrder.html">我的预约</a></li>
+                    <li><a href="#">我的浏览</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</nav>
+
+<!--图片轮播代码-->
+<table border="0" id="idone" style="margin-left: 200px;margin-right: 200px">
+    <tbody>
+    <tr>
+        <th colspan="5">
+            <marquee scrollamount="15">
+                <img src="images/car_img/p1.jpg" height="240" width="360"/>
+                <img src="images/car_img/jili.jpg" height="240" width="360"/>
+                <img src="images/car_img/baomam8.jpg" height="240" width="360"/>
+                <img src="images/car_img/puladuo.jpg" height="240" width="360"/>
+                <img src="images/car_img/maikailunp1.jpg" height="240" width="360"/>
+                <img src="images/car_img/youjiajiangjia.jpg" height="240" width="360"/>
+                <img src="images/car_img/duyao.jpg" height="240" width="360"/>
+            </marquee>
+        </th>
+    </tr>
+    </tbody>
+</table>
+
+
+
+<div style="margin-left: 200px;margin-right: 200px" >
+    <fieldset>
+        <legend>跑车介绍图片<span class="qukmore_sec"><a href="front/cardetail.html">More &gt;&gt;</a></span></legend>
+        <hr/>
+        <div class="media">
+            <div class="media-left media-middle">
+                <a href="#">
+                    <img src="images/car_img/duyao.jpg" height="150" width="200"
+                         style=""/>
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">兰博基尼介绍</h4>
+                <p>
+                    作为全球顶级跑车制造商及欧洲奢侈品标志之一，
+                    拥有霸气的外表，兰博基尼一贯秉承将极致速度与时
+                    尚风格融为一体的品牌理念，不断创新并寻求全新品牌突破。
+                    此次涉足时装领域，将为兰博基尼品牌拥趸者提供更加丰富多彩的品牌产品选择。
+                    兰博基尼（Lamborghini），又被翻译作朗博基尼，林保坚尼。
+                    在意大利乃至全世界，兰博基尼是诡异的，它神秘地诞生，出人意料地推出一款又
+                    一款的让人咋舌的超级跑车。
+                </p>
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<script>
+    $(function () {
+        $.post('findcarinfor.action', function (list) {
+
+            $.each(list, function (index, carinfor) {
+                /*if (index == 0) {}*/
+                    var img = $("<img style='height=150; width=200 '>").prop("src", "upload/" + carinfor.pic);
+                    var a = $("<a>");
+                    var div1 = $("<div class='media-left media-middle'>");
+                    var h = $("<h2>").addClass("media-heading").text(carinfor.title);
+                    var p = $("<p style='font-size: 16px'>").text(carinfor.desc);
+                    var br = $("<br>");
+                    var div2 = $("<div>").addClass("media-body");
+                    var div3 = $("<div>").addClass("media");
+                    /* var di4=$("<div style='margin-left: 200px;margin-right: 200px'>");*/
+
+                    div3.append(div1).append(div2);
+                    div1.append(a);
+                    a.append(img);
+                    div2.append(h).append(br).append(p);
+                    $("#divrowid").append(div3);
+
+
+                /*$(".container").append(fieldset).append(legend).append(hr).append(div3);
+                /!*fieldset.append(legend).append(hr).append(div3);*!/
+                div3.append(row).append(div1).append(div2);
+                div1.append(a);
+                a.append(img);
+                div2.append(h).append(br).append(p);*/
+            })
+        }, 'json');
+    });
+
+</script>
+
+<!--文字加图片品牌分类-->
+<div style="margin-left: 200px;margin-right: 200px">
+    <fieldset>
+        <legend>奥迪图片介绍<span class="qukmore_sec"><a href="front/cardetail.html">More &gt;&gt;</a></span></legend>
+        <hr/>
+        <div class="media">
+            <div class="media-left media-middle">
+                <a href="#">
+                    <img src="images/car_img/aodi.jpg"
+                         height="150" width="200" style=""/>
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">奥迪图片介绍</h4>
+                <p>
+                    奥迪是著名的汽车开发商和制造商，其标志为四个圆环相扣。现为德国大众汽车公司的子公司，总部设在德国的英戈尔施塔特，主要车型有A1、A3、A4、A5、A6、A7、A8、Q1、Q2、 [2]  Q3、Q5、Q7、Q8 [3-4]  、TT、R8以及S、RS性能系列等。
+                    奥迪集团包括母公司及其子公司奥迪匈牙利公司、quattro有限公司以及兰博基尼汽车公司和Cosworth技术公司，奥迪巴西及奥迪塞那利塔。此外，奥迪还在中国、马来西亚和南非等地设有生产厂。
+                    奥迪是德国历史最悠久的汽车制造商之一。从1932年起，奥迪开始采用四环徽标，它象征着奥迪与小奇迹(DKW)、霍希(Horch)和漫游者(Wanderer)合并成的汽车联盟公司。在20世纪30年代，汽车联盟公司涵盖了德国汽车工业能够提供的所有乘用车领域，从摩托车到豪华轿车。
+                 </p>
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<!--模板块-->
+<div class="container">
+    <!--汽车新闻-->
+    <div class="conlinone">
+        <div class="zncompan">
+            <h1>汽车新闻</h1>
+            <ul>
+                <li><a href="#">奥迪R8新车新闻发布</a></li>
+                <li><a href="#">保时捷帕拉梅拉商业跑车</a></li>
+                <li><a href="#">中国崛起之星吉利季度销冠</a></li>
+                <li><a href="#">丰田霸道新疆之行</a></li>
+            </ul>
+            <span class="qukmore_sec"><a href="#">More &gt;&gt;</a></span></div>
+        <!--用车论坛-->
+        <div class="zncompan">
+            <h1>用车论坛</h1>
+            <ul>
+                <li><a href="#">马自达提车记</a></li>
+                <li><a href="#">奥迪A4L的舒适性</a></li>
+                <li><a href="#">全新新能源保时捷帕拉梅拉</a></li>
+                <li><a href="#">宝马530豪华配置 轻松操作</a></li>
+            </ul>
+            <span class="qukmore_sec"><a href="#">More &gt;&gt;</a></span>
+        </div>
+        <!--热门推荐-->
+        <div class="zncompan">
+            <h1>热门推荐</h1>
+            <ul>
+                <li><a href="#">比亚迪新能源高配唐</a></li>
+                <li><a href="#">90后最适合的家用轿车</a></li>
+                <li><a href="#">丰田思域秒天秒地秒空气</a></li>
+                <li><a href="#">全新大众朗逸豪华家用版</a></li>
+            </ul>
+            <span class="qukmore_sec"><a href="#">More &gt;&gt;</a></span>
+        </div>
+        <!--新车展示-->
+        <div class="zncompan_thr">
+            <h1>新车展示</h1>
+            <div class="ywzs">
+                <img src="images/car_img/aodi.jpg" alt="" title="" style="width: 200px;height:150px"/>
+                <p class="ywzsdes">
+                    汽车服务网站平台提供各种汽车保养和维修套餐及服务网站汽车服务网站平台提供各种汽车保养和维修套餐及服务网站会员可通过平台定制自己需要的服务。同时，网站平台定期推出各种优惠活动，敬请广大用户关会员可通过平台定制自己需要的服务。同时，网站平台定期推出各种优惠活的服务。同时，网站平台定期推出各种优惠活动，敬请广大用户关注的服务。同时，网站平台定期推出各种优惠活动，敬请广大用户关注动，敬请广大用户关注</p>
+                <span class="qukmore_sec"><a href="#">More &gt;&gt;</a></span></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+    <div class="conlintwo">
+        <div class="contwotit">
+            <h3>热门推荐 <a class="rmtjmore" href="#">More &gt;&gt;</a></h3>
+        </div>
+        <div class="contwonr">
+            <ul>
+                <li><a href="#">
+                    <img src="images/car_img/sitingge.jpg" height="180" width="240"/>
+                </a>
+                    <a href="#">
+                        <h3 class="slvh">测试进口斯汀格GT性能</h3>
+                    </a>
+                </li>
+                <li><a href="#"><img src="images/car_img/baomam8.jpg" height="180" width="240"/></a> <a href="#">
+                    <h3 class="slvh">宝马8M百米加速2.8s</h3>
+                </a></li>
+                <li><a href="#"><img src="images/car_img/aodirs7.jpg" height="180" width="240"/></a> <a href="#">
+                    <h3 class="slvh">奥迪RS7的疯狂输出</h3>
+                </a></li>
+                <li><a href="#"><img src="images/car_img/jili.jpg" height="180" width="240"/></a> <a href="#">
+                    <h3 class="slvh">国产吉利汽车收购沃尔沃</h3>
+                </a></li>
+                <li><a href="#"><img src="images/car_img/youjiajiangjia.jpg" height="180" width="240"/></a> <a href="#">
+                    <h3 class="slvh">国内油价每升降价5毛钱</h3>
+                </a></li>
+                <li><a href="#"><img src="images/car_img/puladuo.jpg" height="180" width="240"/></a> <a href="#">
+                    <h3 class="slvh">普拉多对阵北京吉普，性能谁与争锋</h3>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="footbg">
+    <div class="footer">
+        <div class="foot_l">
+            <div class="menu_foot">
+                <p>关于我们</p>
+                <ul>
+                    <li><a href="#">关于汽车服务</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">平台介绍</a></li>
+                    <li><a href="#">平台宗旨</a></li>
+                </ul>
+            </div>
+            <div class="menu_foot">
+                <p>关于我们</p>
+                <ul>
+                    <li><a href="#">公司地址</a></li>
+                    <li><a href="#">公司电话</a></li>
+                    <li><a href="#">以往奖项</a></li>
+                    <li><a href="#">投诉电话</a></li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <div class="foot_r">
+            <div class="title">关于我们</div>
+            <div class="detail">
+                汽车服务网站平台提
+                供各种汽车新闻的发布以及用车养车的小知识
+                让用户更加了解车并且可以及时的接收各种汽车资讯
+                同时该平台能提供各种优惠活动，定制自己喜欢车的试驾
+            </div>
+        </div>
+    </div>
+</div>
+<!--模板JS-->
+<script>
+    $(document).ready(function () {
+        $(".slvh").each(function () {
+            var maxwidth = 28;
+            if ($(this).text().length > maxwidth) {
+                $(this).text($(this).text().substring(0, maxwidth));
+                $(this).html($(this).html() + ' ...');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $(".ywzsdes").each(function () {
+            var maxwidth = 140;
+            if ($(this).text().length > maxwidth) {
+                $(this).text($(this).text().substring(0, maxwidth));
+                $(this).html($(this).html() + ' ...');
+            }
+        });
+    });
+
+
+</script>
+
+
+</body>
+</html>

@@ -32,7 +32,7 @@ public class addCarAction extends HttpServlet {
         Date d = null;
         try {
             d = sdf.parse(date);
-            System.out.println(d);
+            System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(d));
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -44,7 +44,7 @@ public class addCarAction extends HttpServlet {
         car.setColor(color);
         car.setDate(d);
         car.setPrice(price);
-        car.setPic(pic);
+        car.setPic(UploadAction.getFileName());
         car.setDesc(desc);
         ICarService i = new CarServiceImpl();
         i.addCar(car);

@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JAVA_CarManagerTest:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c2ca87d-8c25-4cb5-a31b-bc0b1009d395" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/../JAVA_ArrayListTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_ArrayListTest/src/pers/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/car/UpdateCarAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/car/UploadAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/car/delCarAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/car/findCarsNameAndPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/manage/manageLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/user/UserRigist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/user/addUserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/user/findAllUsersAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/action/user/userLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/dao/IManageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/dao/Impl/IManageDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/dao/Impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/entity/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/service/IManageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/service/Impl/IManageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/car/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/aodi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/aodirs7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/aodishangwu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/aodishui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/baoma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/baomam8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/baoshijie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/chaopao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/duyao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/jili.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/lanbo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/lanboji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/lanbojini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/mading.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/maikailunp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/mashaladi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/puladuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/saiche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/sitingge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/car_img/youjiajiangjia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_CarManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/action/car/FindAllCarsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/dao/ICarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/dao/Impl/CarDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/entity/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/filter/ReqFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/service/ICarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/service/Impl/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/pers/car/util/DButil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_CarManager/out/production/JAVA_CarManager/test/pers/car/dao/Impl/CarDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JAVA_CarManagerTest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JAVA_CarManagerTest_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA_CarManagerTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_CarManagerTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/action/car/addCarAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/action/car/addCarAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/dao/ICarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/dao/ICarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/dao/Impl/CarDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/dao/Impl/CarDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/filter/ReqFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/filter/ReqFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/service/ICarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/service/ICarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/service/Impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/service/Impl/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/car/util/DButil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/car/util/DButil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/back/findCars.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/back/findCars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MVC_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MVC_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_PhoneShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_PhoneShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_PhoneShop/out/artifacts/JAVA_PhoneShop_war_exploded/WEB-INF/classes/pers/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_PhoneShop/out/artifacts/JAVA_PhoneShop_war_exploded/WEB-INF/classes/pers/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_PhoneShop/src/pers/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_PhoneShop/src/pers/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_PhoneShop/web/WEB-INF/classes/pers/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_PhoneShop/web/WEB-INF/classes/pers/servlet/LoginServlet.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_db: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="car_table: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="manager_table: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="car_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="car_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1490383925">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="car_table" value="11" />
+          <entry key="class" value="6" />
+          <entry key="css" value="5" />
+          <entry key="html" value="38" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="153" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="3" />
+          <entry key="manager_table" value="6" />
+          <entry key="png" value="1" />
+          <entry key="sql" value="8" />
+          <entry key="table_name" value="1" />
+          <entry key="user" value="12" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="CSS" value="5" />
+          <entry key="Database Element" value="30" />
+          <entry key="HTML" value="38" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="153" />
+          <entry key="JSP" value="3" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Scratch" value="8" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="10" />
+          <entry key="dummy" value="12" />
+          <entry key="html" value="2972" />
+          <entry key="java" value="4264" />
+          <entry key="jsp" value="35" />
+          <entry key="sql" value="182" />
+          <entry key="txt" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2972" />
+          <entry key="JAVA" value="4264" />
+          <entry key="JSP" value="35" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="SQL" value="13" />
+          <entry key="Scratch" value="179" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="150" column="14" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/car/action/user/userLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/back/findUsers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4237">
+              <caret line="235" column="36" selection-start-line="235" selection-start-column="36" selection-end-line="235" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/car/action/manage/manageLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/car/action/user/UserRigist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nav</find>
+      <find>.nav</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/back/findCars2.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/addCar.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/entity/Car.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/delCarAction.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/findCarsNameAndPrice.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/UploadAction.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/addCarAction.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/UpdateCarAction.java" />
+        <option value="$PROJECT_DIR$/web/bootstrap/login.css" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/login.java" />
+        <option value="$PROJECT_DIR$/web/test.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/car/regServlet.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/ICarDao.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/service/ICarService.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/service/Impl/CarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/findAllUser.java" />
+        <option value="$PROJECT_DIR$/web/error.html" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/regServlet.java" />
+        <option value="$PROJECT_DIR$/web/back/findCars.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/Impl/CarDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/entity/Manager.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/IManageDao.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/Impl/IManageDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/service/IManageService.java" />
+        <option value="$PROJECT_DIR$/web/back/managelogin.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/service/Impl/IManageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/findAllUsersAction.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/Impl/UserDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/pers/car/dao/Impl/UserDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/dao/Impl/UserDaoImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39ebbff1-d3a1-496f-a8d7-de5d9714147b/console.sql" />
+        <option value="$PROJECT_DIR$/src/pers/car/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/addUserAction.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/filter/ReqFilter.java" />
+        <option value="$PROJECT_DIR$/web/back/userregist.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/UserRigist.java" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/manage/manageLogin.java" />
+        <option value="$PROJECT_DIR$/web/back/userlogin.html" />
+        <option value="$PROJECT_DIR$/web/back/cardetail.html" />
+        <option value="$PROJECT_DIR$/src/pers/car/action/user/userLogin.java" />
+        <option value="$PROJECT_DIR$/web/back/findUsers.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_CarManagerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_CarManagerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545707950169" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pers.car.dao.Impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Eve\JAVA_CarManagerTest\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Eve\JAVA_CarManagerTest\web\bootstrap" />
+      <recent name="E:\Eve\JAVA_CarManagerTest\web\images" />
+      <recent name="E:\Eve\JAVA_CarManagerTest\web\upload" />
+      <recent name="E:\Eve\JAVA_CarManagerTest\web\WEB-INF\lib" />
+      <recent name="E:\Eve\JAVA_CarManagerTest\web\WEB-INF" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pers.car.service.Impl" />
+      <recent name="pers.car.dao.Impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.cat">
+    <configuration name="findAllUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.car.action.user.findAllUser" />
+      <module name="JAVA_CarManagerTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.car.action.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoImplTest.testFindAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JAVA_CarManagerTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.pers.car.dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.pers.car.dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="test.pers.car.dao.Impl.UserDaoImplTest" />
+      <option name="METHOD_NAME" value="testFindAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="JAVA_CarManagerTest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JAVA_CarManagerTest" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_JAVA_CarManagerTest" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63728" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JAVA_CarManagerTest:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="cat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="JAVA_CarManagerTest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JAVA_CarManagerTest" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JAVA_CarManagerTest_2" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63728" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JAVA_CarManagerTest:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.cat" />
+      <item itemvalue="Application.findAllUser" />
+      <item itemvalue="JUnit.UserDaoImplTest.testFindAllUsers" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDaoImplTest.testFindAllUsers" />
+        <item itemvalue="Application.findAllUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c2ca87d-8c25-4cb5-a31b-bc0b1009d395" name="Default Changelist" comment="" />
+      <created>1545117450725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545117450725</updated>
+      <workItem from="1545117455831" duration="419000" />
+      <workItem from="1545117919878" duration="3920000" />
+      <workItem from="1545137820777" duration="1232000" />
+      <workItem from="1545181397227" duration="8406000" />
+      <workItem from="1545199216569" duration="8220000" />
+      <workItem from="1545267970906" duration="5704000" />
+      <workItem from="1545285611820" duration="8748000" />
+      <workItem from="1545298821828" duration="2354000" />
+      <workItem from="1545301400681" duration="1500000" />
+      <workItem from="1545306293298" duration="1776000" />
+      <workItem from="1545354705318" duration="3033000" />
+      <workItem from="1545358777199" duration="3917000" />
+      <workItem from="1545371704742" duration="8616000" />
+      <workItem from="1545381771007" duration="8510000" />
+      <workItem from="1545613501532" duration="3978000" />
+      <workItem from="1545618102441" duration="3538000" />
+      <workItem from="1545631126720" duration="8966000" />
+      <workItem from="1545699610073" duration="7484000" />
+      <workItem from="1545717558399" duration="900000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1545117847121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545117847121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1545118034301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545118034301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1545189225702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545189225702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 38m 24s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 42m 28s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 44m 59s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 49m 02s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 49m 42s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 51m 11s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 51m 44s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 54m 37s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 57m 50s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_testFindAllUsers - 2018.12.24 at 15h 58m 19s.xml">
+      <configuration name="UserDaoImplTest.testFindAllUsers" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="91221000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46853146" visible="true" weight="0.25536194" />
+      <window_info id="Structure" order="1" sideWeight="0.5314685" side_tool="true" weight="0.25201073" />
+      <window_info id="Web" order="2" sideWeight="0.5314685" side_tool="true" weight="0.25201073" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3972028" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.379021" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49932975" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32867134" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32867134" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.22184986" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.28686327" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.html" />
+    <entry file="file://$PROJECT_DIR$/web/index_old.html" />
+    <entry file="file://$PROJECT_DIR$/JAVA_CarManagerTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/car/UploadAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/car/UpdateCarAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/service/Impl/IManageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/dao/Impl/UserDaoImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/pers/car/dao/ICarDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="587" column="8" selection-start-line="587" selection-start-column="8" selection-end-line="587" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/dao/Impl/IManageDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/dao/Impl/CarDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39ebbff1-d3a1-496f-a8d7-de5d9714147b/schema/car_db/table/manager_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39ebbff1-d3a1-496f-a8d7-de5d9714147b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/car/FindAllCarsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/dao/Impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/user/findAllUsersAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/service/ICarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/pers/car/dao/Impl/UserDaoImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/pers/car/filter/ReqFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/util/DButil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/service/IManageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/service/Impl/CarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/car/addCarAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" selection-start-line="25" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/user/addUserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39ebbff1-d3a1-496f-a8d7-de5d9714147b/schema/car_db/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39ebbff1-d3a1-496f-a8d7-de5d9714147b/schema/car_db/table/car_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/userregist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/car_img/p1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/BaseDescription.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1885">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/AllOf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/IsEqual.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/IsSame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/qiche/js/slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/managelogin/images/8bcLQqF.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/managelogin/images/cloud.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/findCars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5757">
+          <caret line="303" column="11" selection-start-line="303" selection-start-column="11" selection-end-line="308" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/manage/manageLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/user/userLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/managelogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/cardetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="136" column="80" selection-start-line="136" selection-start-column="80" selection-end-line="136" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/userlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/car/action/user/UserRigist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="150" column="14" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/back/findUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4237">
+          <caret line="235" column="36" selection-start-line="235" selection-start-column="36" selection-end-line="235" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>JAVA_CarManagerTest:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JAVA_CarManagerTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -32,7 +32,7 @@ public class DButil {
         try {
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_db",
                     "root","1234");
-            System.out.println("é“¾æ¥æˆåŠŸ*******************");
+            System.out.println("Á´½Ó³É¹¦*******************");
         } catch (SQLException e) {
             e.printStackTrace();
         }

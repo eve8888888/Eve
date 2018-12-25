@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员登录界面</title>
+    <link rel="stylesheet" href="../bootstrap/managelogin/css/body.css">
+    <link rel="stylesheet" href="../bootstrap/managelogin/css/style.css">
+    <link rel="stylesheet" href="../bootstrap/style.css">
+    <!--js包-->
+</head>
+<body>
+<div class="container">
+    <section id="content">
+        <form  id="manageloginform" action="../managelogin.action">
+            <h1>管理员登录</h1>
+            <div>
+                <input type="text" placeholder="管理员姓名" name="name" required="" id="username" />
+            </div>
+            <div>
+                <input type="password" placeholder="密码" name="password" required="" id="password" />
+            </div>
+            <div class="">
+                <span class="help-block u-errormessage" id="js-server-helpinfo">&nbsp;</span>			</div>
+            <div>
+                <input type="submit" value="登录" class="btn btn-primary" id="manageloginbtn"/>
+            </div>
+        </form>
+    </section>
+</div>
+
+</body>
+</html>

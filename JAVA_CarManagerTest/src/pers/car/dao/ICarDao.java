@@ -9,4 +9,6 @@ public interface ICarDao {
     void deleteCar(Integer id);
     void updateCar(Car car, Integer id);
     List<Car> findAllCar();
+    List<Car> findCarsBynameAndPrice(String brand,Double min,Double max);
+
 }

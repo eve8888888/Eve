@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录界面</title>
+    <link rel="stylesheet" href="../bootstrap/common/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/plugin/sweetalert/css/sweetalert2.css">
+    <link rel="stylesheet" href="../bootstrap/plugin/validator/css/bootstrapValidator.css">
+    <script src="../bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="../bootstrap/common/js/bootstrap.js"></script>
+    <script src="../bootstrap/plugin/sweetalert/js/sweetalert2.js"></script>z
+    <script src="../bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+    <script src="../bootstrap/plugin/validator/js/language/zh_CN.js"></script>
+    <script src="../bootstrap/common/js/jquery.cookie.js"></script>
+
+</head>
+<body>
+<!--导航条-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">返回首页</a>
+        </div>
+        <!--//导航条汽车查询和用户的注册和登陆信息-->
+        <div class="panel-body">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="userlogin.html" id="userloginid">用户登录</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="userregist.html" id="userregistid">用户注册</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+</nav>
+
+
+<!--用户登录输入框那块的东东-->
+<div class="container">
+    <form class="form-horizontal" id="userloginForm"  >
+        <fieldset>
+            <legend>用户登录</legend>
+            <div class="form-group">
+                <label class="control-label col-md-2">用户名</label>
+                <div class="col-md-8">
+                    <input type="text" name="name" placeholder="请输入用户名" class="form-control"/>
+                </div>
+                <div class="col-md-2">
+                    <span id="nameSpan"></span>
+                </div>
+            </div>
+            <!--用户密码-->
+            <div class="form-group">
+                <label class="control-label col-md-2">用户密码</label>
+                <div class="col-md-8">
+                    <input type="password" name="password" placeholder="请输入密码" class="form-control"/>
+                </div>
+                <div class="col-md-2">
+                    <span id="passwordSpan"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-lg-2"></label>
+                <div class="col-lg-10">
+                    <input type="button" value="点击确认" id="userloginconfirmBtn" />
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<script>
+    $("input[type='password']").blur(function () {
+        /*判断输入是否符合要求*/
+        var value = $(this).val();
+        var pattern = /^[0-9]+$/;
+        if (pattern.test(value)) {
+            $("#passwordSpan").addClass("glyphicon glyphicon-ok");
+        } else {
+            $("#passwordSpan").text("错误").css("color", "red");
+        }
+    });
+    /*/!*点击登录进行登录*!/*/
+    $("#userloginconfirmBtn").click(function () {
+        var attr = $("#userloginForm").serialize();
+        $.ajax({
+            type: 'post',
+            url: '../userlogin.action',
+            data: attr,
+
+            success: function (msg) {
+                if(msg==="success"){
+                    swal({
+                        title: '登录成功',
+                        text: msg,
+                        type: 'success'
+                    });
+                    window.location.href="../index.html";
+                }else{
+                    swal({
+                        title: '登录失败',
+                        text: msg,
+                        type: 'danger'
+                    });
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

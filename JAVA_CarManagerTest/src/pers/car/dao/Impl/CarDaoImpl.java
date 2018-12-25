@@ -6,10 +6,8 @@ import pers.car.util.DButil;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.SimpleFormatter;
 
 /**
  * @Author: Eve
@@ -82,4 +80,39 @@ public class CarDaoImpl implements ICarDao {
         db.close();
         return list;
     }
+
+    @Override
+    public List<Car> findCarsBynameAndPrice(String brand, Double min, Double max) {
+        DButil db = DButil.getInstance();
+        db.connection();
+        String sql = null;
+        if(!brand.equals("")){
+            sql = "select * from car_table " +
+                    "where car_brand =? and car_price between ? and ?";
+            db.preparedStatement(sql,brand,min,max);
+        }else {
+            sql ="select * from car_table where car_price between ? and ?";
+            db.preparedStatement(sql,min,max);
+        }
+        ResultSet rs = db.exeuteQuery();
+        List<Car> list = new ArrayList<>();
+        try {
+            while (rs.next()) {
+                list.add(new Car(
+                        rs.getInt("car_id"),
+                        rs.getString("car_brand"),
+                        rs.getString("car_color"),
+                        rs.getDate("car_date"),
+                        rs.getDouble("car_price"),
+                        rs.getString("car_pic"),
+                        rs.getString("car_desc")
+                ));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        db.close();
+        return list;
+    }
+
 }

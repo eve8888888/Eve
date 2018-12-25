@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.mybatistest.mapper.ISchoolMapper">
+    <resultMap id="SchoolMap" type="school">
+        <id property="id" column="school_id"/>
+        <result property="name" column="school_name"/>
+        <result property="phone" column="school_phone"/>
+        <result property="address" column="school_address"/>
+        <result property="date" column="school_date"/>
+    </resultMap>
+
+    <!--添加对应接口中的方法-->
+    <!---->
+    <insert id="addSchool">
+        insert into school_table (school_name, school_phone, school_address, school_date)
+        values (#{name}, #{phone}, #{address}, #{date})
+    </insert>
+    <delete id="deleteSchool">
+        delete
+        from school_table
+        where school_id = #{id}
+    </delete>
+    <update id="updateSchool">
+        update school_table
+        set school_name    = #{name},
+            school_phone   = #{phone},
+            school_address = #{address},
+            school_date    = #{date}
+        where school_id = #{id}
+    </update>
+    <select id="findAllSchools" resultMap="SchoolMap">
+        select *
+        from school_table
+    </select>
+</mapper>

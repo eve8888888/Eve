@@ -43,4 +43,10 @@ public class CarServiceImpl implements ICarService {
     public List<Car> findAllCar() {
         return iCarDao.findAllCar();
     }
+
+    @Override
+    public List<Car> findCarsBynameAndPrice(String brand, Double min, Double max) {
+        return iCarDao.findCarsBynameAndPrice(brand,min,max);
+    }
+
 }

@@ -38,7 +38,6 @@ public class LoginServlet extends HttpServlet {
         }else{
             //存入session
             session.setAttribute("user", user);
-            //转发的跳转
             request.getRequestDispatcher("main.jsp").forward(request, response);
         }
 
