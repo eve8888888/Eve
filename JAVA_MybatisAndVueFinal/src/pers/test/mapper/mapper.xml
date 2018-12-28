@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.test.mapper.IMovieMapper">
+    <resultMap id="TypeMap" type="type">
+        <id property="id" column="type_id"/>
+        <result property="name" column="type_name"/>
+    </resultMap>
+    <resultMap id="MovieMap" type="movie">
+        <id property="id" column="movie_id"/>
+        <result property="name" column="movie_name"/>
+        <result property="price" column="movie_price"/>
+        <result property="desc" column="movie_desc"/>
+        <result property="pic" column="movie_pic"/>
+        <association property="type" column="movie_type" resultMap="TypeMap"/>
+    </resultMap>
+</mapper>

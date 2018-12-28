@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JAVA_TestMybatisTwo:war exploded">
+    <output-path>C:/apache-tomcat-8.5.34/webapps/JAVA_TestMybatisTwo</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JAVA_TestMybatisTwo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JAVA_TestMybatisTwo" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
