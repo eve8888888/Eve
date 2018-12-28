@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue/vue.js"></script>
+
+</head>
+<body>
+<!--<div id="app">-->
+    <!--<p>{{m}}</p>-->
+<!--</div>-->
+
+<!--<ul id="ulid">-->
+    <!--<li v-for="i in items">-->
+        <!--{{i.m}}-->
+    <!--</li>-->
+<!--</ul>-->
+
+<div id="app">
+    <p></p>
+    <button @click = "testfun">点击显示数据</button>
+</div>
+<script>
+    // new Vue({
+    //     el:'#app',
+    //     data:{
+    //         m:'这一部分是数据'
+    //     }
+    // }
+
+
+    // var example = new Vue({
+    //     el:'#ulid',
+    //     data:{
+    //         items:[
+    //             {m:'a'},
+    //             {m:'b'}
+    //     ]
+    //     }
+    // })
+
+    new Vue({
+        el:'#app',
+        data:{
+            message:'测试部分',
+            users:[]
+        },
+        methods:{
+            testfun:function () {
+                _this = this;
+                $.get()
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/common/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/common/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bootstrap/plugin/fileinput/css/fileinput.css">
+    <link rel="stylesheet" href="bootstrap/plugin/sweetalert/css/sweetalert2.css">
+    <link rel="stylesheet" href="bootstrap/plugin/table/css/bootstrap-table.css">
+    <link rel="stylesheet" href="bootstrap/plugin/validator/css/bootstrapValidator.css">
+    <link rel="stylesheet" href="bootstrap/plugin/validator/css/bootstrapValidator.min(1).css">
+    <script src="bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/common/js/bootstrap.js"></script>
+    <script src="bootstrap/common/js/jquery.cookie.js"></script>
+    <script src="bootstrap/plugin/fileinput/js/fileinput.js"></script>
+    <script src="bootstrap/plugin/fileinput/js/zh.js"></script>
+    <script src="bootstrap/plugin/sweetalert/js/sweetalert2.js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table(1).js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table-zh-CN.js"></script>
+    <script src="bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+    <script src="vue/vue.js"></script>
+
+</head>
+<body>
+<!--导航条导航条导航条导航条导航条-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">导航条</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">汽车信息管理<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">用户管理</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#">退出登录</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">用户管理</div>
+    </div>
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" id="addBtn" class="btn btn-success"><span class="glyphicon glyphicon-plus">添加</span></button>
+        <button type="button" id="updateBtn" class="btn btn-warning"><span class="glyphicon glyphicon-pencil">修改</span></button>
+        <button type="button" id="deleteBtn" class="btn btn-danger"><span class="glyphicon glyphicon-remove">删除</span></button>
+    </div>
+    <div>
+        <table id="table_id"></table>
+    </div>
+</div>
+
+<!---添加用户的模态框 -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="addModalLabel">添加用户信息</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="addForm">
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户姓名</label>
+                        <div class="col-md-9">
+                            <input type="text" name="name" placeholder="用户姓名" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户密码</label>
+                        <div class="col-md-9">
+                            <input type="password" name="password" placeholder="用户密码" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户地址</label>
+                        <div class="col-md-9">
+                            <input type="text" name="address" placeholder="用户地址" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3"></label>
+                        <div class="col-md-9" id="testdiv">
+                            <input type="button" value="添加用户" class="btn btn-success btn-block" id="addconfirmBtn">
+                            <!--<button  @click = "testfun" id="addbtnnew">添加</button>-->
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--修改信息界面的模态框-->
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="updateModalLabel">修改用户信息</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="updateForm">
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户编号</label>
+                        <div class="col-md-9">
+                            <input type="text" name="id" placeholder="用户编号" class="form-control" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户姓名</label>
+                        <div class="col-md-9">
+                            <input type="text" name="name" placeholder="用户姓名" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户密码</label>
+                        <div class="col-md-9">
+                            <input type="password" name="password" placeholder="用户密码" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">用户地址</label>
+                        <div class="col-md-9">
+                            <input type="text" name="address" placeholder="用户密码" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3"></label>
+                        <div class="col-md-9">
+                            <input type="button" value="修改用户信息" class="btn btn-success btn-block" id="updateconfirmBtn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        $('#table_id').bootstrapTable({
+            url: "findAllUsers.action",
+            pagination: true,
+            pageSize: 5,
+            pageList: [1, 2, 3, 4, 5],
+            search: true,
+            showRefresh: true,
+            showColumns: true,
+            toolbar: "#toolbar",
+            columns: [
+                {checkbox: true},
+                {field: 'id', title: '编号'},
+                {field: 'name', title: '姓名'},
+                {field: 'password', title: '密码'},
+                {field: 'address', title: '地址'}
+            ]
+        })
+    });
+    $("#addBtn").click(function () {
+        $("#addModal").modal('show')
+    });
+    $("#addconfirmBtn").click(function () {
+        var attr = $("#addForm").serialize();
+        $.ajax({
+            type:'post',
+            url:'addUser.action',
+            data:attr,
+            success:function (msg) {
+                swal({
+                    title:'添加提示',
+                    text:msg,
+                    type:'success'
+                });
+                $("#addModal").modal('hide');
+                $("#table_id").bootstrapTable('refresh');
+            }
+        })
+    });
+    $("#deleteBtn").click(function () {
+        var rows = $("#table_id").bootstrapTable("getSelections");
+        var ids = $.map(rows,function (row) {
+            return row.id
+        });
+        if(ids.length < 1){
+            swal({
+                title:'删除提示',
+                text:'没选中',
+                type:"warning"
+            });
+        }else {
+            $.post('delUser.action',{id:ids.join()},function (msg) {
+                swal({
+                    title:'删除提示',
+                    text:msg,
+                    type:'success'
+                });
+                $("#table_id").bootstrapTable('refresh');
+            })
+        }
+    });
+    $("#updateBtn").click(function () {
+        // $("#upModal").modal('show')
+        var rows = $("#table_id").bootstrapTable("getSelections");
+        if(rows.length < 1){
+            swal({
+                title:'修改提示',
+                text:'您还没选中任何修改项',
+                type:"warning"
+            });
+        }else if(rows.length > 1){
+            swal({
+                title:'修改提示',
+                text:'每次只能修改一项',
+                type:"warning"
+            });
+        }else {
+            var row = $("#table_id").bootstrapTable("getSelections")[0];
+            $("#updateForm input[name='id']").val(row.id);
+            $("#updateForm input[name='name']").val(row.name);
+            $("#updateForm input[name='password']").val(row.password);
+            $("#updateForm input[name='address']").val(row.address);
+            $("#updateModal").modal('show');
+        }
+    });
+    $("#updateconfirmBtn").click(function () {
+        var attr = $("#updateForm").serialize();
+        $.ajax({
+            type:'post',
+            url:'updateUser.action',
+            data:attr,
+            success:function (msg) {
+                swal({
+                    title:'修改提示',
+                    text:msg,
+                    type:'success'
+                });
+                $("#updateModal").modal('hide');
+                $("#table_id").bootstrapTable('refresh');
+            }
+        })
+    });
+</script>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.test.mybatisservlet.mapper.IUserMapper">
+    <!--对应实体类映射部分-->
+    <resultMap id="UserMap" type="user">
+        <id property="id" column="user_id"/>
+        <result property="name" column="user_name"/>
+        <result property="password" column="user_pwd"/>
+        <result property="address" column="user_address"/>
+    </resultMap>
+    <insert id="save">
+        insert into user (user_name, user_pwd, user_address)
+        values (#{name}, #{password}, #{address})
+    </insert>
+    <delete id="deleteUser">
+        delete
+        from user
+        where user_id = #{id}
+    </delete>
+    <update id="updateUser">
+        update user
+        set user_name    = #{name},
+            user_pwd     = #{password},
+            user_address = #{address}
+        where user_id = #{id}
+    </update>
+    <select id="findAllUsers" resultMap="UserMap">
+        select *
+        from user
+    </select>
+</mapper>

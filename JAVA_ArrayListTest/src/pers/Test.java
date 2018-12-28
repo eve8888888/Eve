@@ -2,6 +2,7 @@ package pers;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.lang.reflect.Field;
 import java.net.ServerSocket;
 import java.util.*;
 
@@ -11,12 +12,28 @@ import java.util.*;
  * @Version 1.0
  */
 
-class Person implements Comparable{
+class Person{
     private String name;
     private Integer age;
 
     public Person(String name, Integer age) {
         this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -38,11 +55,6 @@ class Person implements Comparable{
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
-    }
-
-    @Override
-    public int compareTo(@NotNull Object o) {
-        if()
     }
 }
 //public class Test {
@@ -102,13 +114,79 @@ class Person implements Comparable{
 //        System.out.println(list);
 //    }
 //}
+//class comparePerson implements Comparator{
+//
+//    @Override
+//    public int compare(Object o1, Object o2) {
+//        Person p1 = (Person) o1;
+//        Person p2 = (Person) o2;
+//        if(p1.getAge()>p2.getAge()){
+//            return 1;
+//        }else if(p1.getAge()<p2.getAge()){
+//            return -1;
+//        }
+//        return p1.getName().compareTo(p2.getName());
+//    }
+//}
+//class Test{
+//    public static void main(String[] args) {
+//        Set<Person> set = new TreeSet<>(new comparePerson());
+//        set.add(new Person("C",10));
+//        set.add(new Person("B",20));
+//        set.add(new Person("A",30));
+//        System.out.println(set);
+//    }
+//}
+//class Test{
+//    public static void main(String[] args) {
+//        List<String> list = new ArrayList<>();
+//        Collections.addAll(list,"A","B","C","D","E");
+//        ListIterator listIterator = list.listIterator();
+//        while (listIterator.hasNext()){
+//            System.out.print(listIterator.next()+",");
+//        }
+//        System.out.println("\n*************************");
+//        while (listIterator.hasPrevious()){
+//            System.out.print(listIterator.previous()+",");
+//        }
+//    }
+//}
+//class Test{
+//    public static void main(String[] args) {
+//        List<String> vector = new Vector<>();
+//        Collections.addAll(vector,"A","B","C","D","E");
+//        Enumeration enumeration = ((Vector<String>) vector).elements();
+//        while (enumeration.hasMoreElements()){
+//            System.out.print(enumeration.nextElement() + ",");
+//        }
+//    }
+//}
+//class Test{
+////    public static void main(String[] args) {
+////        Set<String> set = new HashSet<>();
+////        Collections.addAll(set,"A","B","C","D","E");
+////        for (String s :
+////                set) {
+////            System.out.print(s+",");
+////        }
+////    }
+////}
 class Test{
-    public static void main(String[] args) {
-        Set<Person> set = new TreeSet<>();
-        set.add(new Person("A",10));
-        set.add(new Person("B",20));
-        set.add(new Person("C",30));
-        System.out.println(set);
+    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+        String a = "Hello";
+//        String b = "Hello";
+//        String c = new String("Hello");
+        System.out.println("修改前的值");
+        System.out.println("a = "+a);
+//        System.out.println("b = "+b);
+//        System.out.println("c = "+c);
+        Field a_ = String.class.getDeclaredField("value");
+        a_.setAccessible(true);
+        char[] value = (char[])a_.get(a);
+        value[2] = '_';
+        System.out.println("a = " + a);
+        //System.out.println("b = " + b);
+        System.out.println("Hello");
+        //System.out.println("c = " + c);
     }
 }
-

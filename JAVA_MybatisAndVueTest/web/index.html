@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="bootstrap/common/css/bootstrap.css">
+
+    <script src="bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/common/js/bootstrap.js"></script>
+    <script src="vue/vue.js"></script>
+
+</head>
+<body>
+<!--表格部分-->
+<div class="container" id="app">
+    <table class="table table-bordered table-striped" id="tableid">
+        <thead>
+        <tr>
+            <th>编号</th>
+            <th>姓名</th>
+            <th>密码</th>
+            <th>地址</th>
+            <th>操作按钮</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="(user,index) in user">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.password}}</td>
+            <td>{{user.address}}</td>
+            <td><button @click="del(user,index)" type="button" class="btn btn-default">删除</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+<script>
+    /*查找所有的JS*/
+    /*查找所有的JS*/
+    $.post('findAllUsers.action', function (list) {
+        new Vue({
+            el: '#app',
+            data: {
+                user: list
+            },
+            methods:{
+                del:function (user,index) {
+                    var s=this.user;
+                    $.post('delUser.action',{id:user.id},function (m) {
+                        s.splice(index,1)
+                        swal({
+                            title:'删除提示',
+                            text:m,
+                            type:'success'
+                        })
+                    })
+                }
+            }
+        });
+    }, 'json');
+
+</script>
+
+
+</html>
