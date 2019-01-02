@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/common/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/plugin/sweetalert/css/sweetalert2.css">
+    <link rel="stylesheet" href="bootstrap/plugin/table/css/bootstrap-table.css">
+    <script src="bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/common/js/bootstrap.js"></script>
+    <script src="bootstrap/plugin/sweetalert/js/sweetalert2.js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table.js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table-zh-CN.js"></script>
+    <script src="vue.js"></script>
+
+</head>
+<body>
+<div class="container" id="moviedivid">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">查询</h3>
+        </div>
+
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" id="searchName" class="form-control" placeholder="电影名称">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" id="searchPrice" class="form-control" placeholder="电影价格">
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="row">
+                <div class="text-right col-md-12">
+                    <button class="btn btn-primary">点击条件查询</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="app">
+        <table class="table table-bordered table-striped" id="tableid">
+
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>电影名</th>
+                <th>电影类型</th>
+                <th>价格</th>
+                <th>介绍</th>
+                <th>图片</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr v-for="movie in movies">
+                <td>{{movie.id}}</td>
+                <td>{{movie.name}}</td>
+                <td>{{movie.price}}</td>
+                <td>{{movie.desc}}</td>
+                <td>{{movie.pic}}</td>
+                <td>{{movie.type}}</td>
+                <td></td>
+                <td>
+                    <a class="btn btn-danger" >删除</a>
+                    <a class="btn btn-info" data-toggle="modal" data-target="#updateModal" >修改</a>
+                    <a class="btn btn-warning" data-toggle="modal" data-target="#addmovieModal" >添加</a>
+
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+
+        <nav style="margin-left: 900px">
+            <ul class="pagination">
+
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <template >
+
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </template>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+</div>
+<script>
+    $.post('findAllMovie.action',function (list) {
+        new Vue({
+            el:'#app',
+            data:{
+                movies:list
+            }
+        })
+    },'json');
+</script>
+
+</body>
+</html>

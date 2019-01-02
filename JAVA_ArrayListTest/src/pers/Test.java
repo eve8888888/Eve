@@ -4,7 +4,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Field;
 import java.net.ServerSocket;
+import java.sql.PreparedStatement;
 import java.util.*;
+import java.util.stream.Stream;
 
 /**
  * @Author: Eve
@@ -171,22 +173,44 @@ class Person{
 ////        }
 ////    }
 ////}
+//class Test{
+//    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+//        String a = "Hello";
+////        String b = "Hello";
+////        String c = new String("Hello");
+//        System.out.println("修改前的值");
+//        System.out.println("a = "+a);
+////        System.out.println("b = "+b);
+////        System.out.println("c = "+c);
+//        Field a_ = String.class.getDeclaredField("value");
+//        a_.setAccessible(true);
+//        char[] value = (char[])a_.get(a);
+//        value[2] = '_';
+//        System.out.println("a = " + a);
+//        //System.out.println("b = " + b);
+//        System.out.println("Hello");
+//        //System.out.println("c = " + c);
+//    }
+//}
 class Test{
-    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-        String a = "Hello";
-//        String b = "Hello";
-//        String c = new String("Hello");
-        System.out.println("修改前的值");
-        System.out.println("a = "+a);
-//        System.out.println("b = "+b);
-//        System.out.println("c = "+c);
-        Field a_ = String.class.getDeclaredField("value");
-        a_.setAccessible(true);
-        char[] value = (char[])a_.get(a);
-        value[2] = '_';
-        System.out.println("a = " + a);
-        //System.out.println("b = " + b);
-        System.out.println("Hello");
-        //System.out.println("c = " + c);
+    public static void main(String[] args) {
+
+        Map<Integer,String> map = new HashMap<>();
+
+        map.put(1,"A");
+        map.put(2,"B");
+        map.put(3,"C");
+
+        //将Map转为Set
+        Set<Map.Entry<Integer,String>> set = map.entrySet();
+        //取得Set集合的迭代器
+        Iterator<Map.Entry<Integer,String>> i = set.iterator();
+        //迭代输出
+        while (i.hasNext()){
+            //取得Map.Entry对象
+            Map.Entry<Integer,String> entry = i.next();
+            //取得Map.Entry对象的key值和value值
+            System.out.println(entry.getKey()+"="+entry.getValue());
+        }
     }
 }

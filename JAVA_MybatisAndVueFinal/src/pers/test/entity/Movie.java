@@ -1,10 +1,13 @@
 package pers.test.entity;
 
+import org.apache.ibatis.type.Alias;
+
 /**
  * @Author: Eve
  * @Date: 2018/12/28 9:21
  * @Version 1.0
  */
+@Alias("movie")
 public class Movie {
     private Integer id;
     private String name;
@@ -12,6 +15,9 @@ public class Movie {
     private String desc;
     private String pic;
     private Type type;
+
+    public Movie() {
+    }
 
     public Movie(Integer id, String name, Double price, String desc, String pic, Type type) {
         this.id = id;

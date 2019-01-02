@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="carid" class="pers.springone.entity.Car">
+        <property name="id" value="1"/>
+        <property name="brand" value="宝马"/>
+        <property name="color" value="黑色"/>
+        <property name="price" value="1235555.5"/>
+    </bean>
+
+    <bean id="constructorcarid" class="pers.springone.entity.Car">
+        <constructor-arg name="id" value="2"/>
+        <constructor-arg name="brand" value="奔驰"/>
+        <constructor-arg name="color" value="白色"/>
+        <constructor-arg name="price" value="1800000.99"/>
+    </bean>
+
+    <bean id="maikailun" class="pers.springone.entity.Car" p:brand = '迈凯伦' p:color="黄色" p:id="3" p:price="6666666"/>
+
+    <bean id="qingxiang" class="pers.springone.entity.Person" autowire="byName">
+        <property name="name" value="清响"/>
+        <property name="list">
+            <list>
+                <ref bean="carid"/>
+                <ref bean="constructorcarid"/>
+                <ref bean="maikailun"/>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="迈凯伦" value-ref="maikailun"/>
+                <entry key="奔驰" value-ref="constructorcarid"/>
+                <entry key="宝马" value-ref="carid"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="baoma">宝马</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="company" class="pers.springone.entity.Company">
+        <property name="car" ref="constructorcarid"/>
+        <property name="person" ref="qingxiang"/>
+    </bean>
+</beans>

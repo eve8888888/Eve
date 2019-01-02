@@ -2,21 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9ed48-2bd2-42a6-97d0-d85d039bd825" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_CarManager/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_CarManager/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_CarManager/src/pers/car/action/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_CarManager/src/pers/car/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_CarManager/src/pers/car/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MVC_Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/jquery-3.2.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_IO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_IO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_IO/out/production/JAVA_IO/pers/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_IO/out/production/JAVA_IO/pers/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_IO/src/pers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_IO/src/pers/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_ThreadPool/src/pers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_ThreadPool/src/pers/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebServerTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServerTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebServerTest/JAVA_WebServerTest/src/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServerTest/JAVA_WebServerTest/src/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_WebServerTest/out/production/JAVA_WebServerTest/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_WebServerTest/out/production/JAVA_WebServerTest/WebServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot/src/main/resources/web/htmltest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/resources/web/htmltest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/JAVA_JDBCTestBit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_JDBCTestBit/src/pers/jdbcdemo/JdbcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/action/FindAllMovieAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/mapper/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/service/IMovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/service/ITypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/service/Impl/MovieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/service/Impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/test/TypeServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/util/MybatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/managelogin/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/managelogin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/managelogin/images/8bcLQqF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/managelogin/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/table/js/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/.idea/dataSources/d3669782-dc61-4eac-9f39-35436aaf6c2b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/JAVA_MybatisAndVueFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/JAVA_MybatisAndVueFinal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/entity/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/mapper/IMovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/mapper/IMovieMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/mapper/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/src/pers/test/mapper/mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/dataSources/dd23d5c6-6c20-4c7c-ad72-954e8499a2ac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/dataSources/dd23d5c6-6c20-4c7c-ad72-954e8499a2ac.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +151,8 @@
     <session id="-265394638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -76,7 +161,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -129,8 +214,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/util/DButil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="513">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -138,7 +223,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/service/StudentServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="228">
               <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -152,7 +237,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/com/server/StudentServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="228">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,7 +249,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dao/DBdao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="304">
               <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -198,7 +283,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/demo/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="342">
               <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -266,8 +351,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -278,6 +363,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,7 +448,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,6 +612,7 @@
       <workItem from="1545009404124" duration="78000" />
       <workItem from="1545013045736" duration="925000" />
       <workItem from="1545027424721" duration="2857000" />
+      <workItem from="1546154301519" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1543543813297</created>
@@ -585,7 +671,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61466000" />
+    <option name="totallyTimeSpent" value="62339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +686,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37482518" visible="true" weight="0.25938338" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37482518" visible="true" weight="0.2627346" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -861,6 +947,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/util/DButil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/StudentServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/com/server/StudentServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/DBdao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bean/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -881,50 +1006,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/demo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="342">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/com/server/StudentServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/StudentServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/DBdao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/util/DButil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
