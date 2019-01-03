@@ -17,6 +17,15 @@ import java.util.List;
 public class ICarServiceImpl implements ICarService {
     @Resource
     private ICarDao dao;
+
+    public ICarDao getDao() {
+        return dao;
+    }
+
+    public void setDao(ICarDao dao) {
+        this.dao = dao;
+    }
+
     @Override
     public void save(Car car) {
         dao.save(car);

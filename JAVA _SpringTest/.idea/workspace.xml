@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="722f6717-738e-44f3-83dc-05f2512cb9c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContextnew.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/artifacts/JAVA_SpringTest2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/JAVA_SpringTest2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/util/DateConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/jackson-core-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/jackson-databind-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-aop-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-aspects-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-beans-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-context-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-context-support-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-expression-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-instrument-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-instrument-tomcat-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-jdbc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-jms-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-messaging-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-orm-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-oxm-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-test-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-tx-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-web-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-webmvc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-webmvc-portlet-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-websocket-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/sprint-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/images/8bcLQqF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/table/js/bootstrap-table(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/css/bootstrapValidator.min(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/springone/action/CarAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/springone/action/CarAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/springone/service/Impl/ICarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/springone/service/Impl/ICarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/springone/test/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/springone/test/CarTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1482229149">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="99}, 宝马=Car" value="1" />
+          <entry key="Company" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="13" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="13" />
+          <entry key="JSON" value="2" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="633" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="448" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="633" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="XML" value="448" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JAVA _SpringTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springone/action/CarAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-380">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springone/dao/ICarDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JAVA _SpringTest.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pers/springone/test/CarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springone/service/ICarService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springone/dao/Impl/ICarDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContextnew.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springone/service/Impl/ICarServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pers/springone/entity/Car.java" />
+        <option value="$PROJECT_DIR$/src/pers/springone/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/pers/springone/dao/ICarDao.java" />
+        <option value="$PROJECT_DIR$/src/pers/springone/dao/Impl/ICarDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/pers/springone/service/ICarService.java" />
+        <option value="$PROJECT_DIR$/src/pers/springone/entity/Company.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/pers/springone/service/Impl/ICarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext2.xml" />
+        <option value="$PROJECT_DIR$/src/pers/springone/action/CarAction.java" />
+        <option value="$PROJECT_DIR$/src/applicationContextnew.xml" />
+        <option value="$PROJECT_DIR$/src/pers/springone/test/CarTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="201" />
+    <option name="y" value="73" />
+    <option name="width" value="1600" />
+    <option name="height" value="950" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA _SpringTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA _SpringTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springone" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546413216889" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Eve\JAVA _SpringTest\src" />
+      <recent name="E:\Eve\JAVA _SpringTest\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pers.springone.service.Impl" />
+      <recent name="pers.springone.dao.Impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.springone.test.CarTest" />
+      <module name="JAVA _SpringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.springone.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CarTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="722f6717-738e-44f3-83dc-05f2512cb9c8" name="Default Changelist" comment="" />
+      <created>1546391744736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546391744736</updated>
+      <workItem from="1546391748219" duration="6272000" />
+      <workItem from="1546408761720" duration="3311000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1546408888463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546408888463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9583000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20978552" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/entity/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA _SpringTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/dao/ICarDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/service/Impl/ICarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/action/CarAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContextnew.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/dao/Impl/ICarDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/service/ICarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springone/test/CarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JAVA _SpringTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

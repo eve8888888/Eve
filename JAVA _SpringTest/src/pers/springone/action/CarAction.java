@@ -12,7 +12,18 @@ import javax.annotation.Resource;
  */
 @Controller("action")
 public class CarAction {
+
     @Resource(name = "service")
     private ICarService ics;
 
+    public ICarService getIcs() {
+        return ics;
+    }
+
+    public void setIcs(ICarService ics) {
+        this.ics = ics;
+    }
+    public void findAll(){
+        ics.findAllCar();
+    }
 }

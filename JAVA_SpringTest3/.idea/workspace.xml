@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32cfa3ff-59e2-4be4-a3ed-1906e54c176f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JAVA _SpringTest/src/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA _SpringTest/src/applicationContextnew.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/artifacts/JAVA_SpringTest2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/JAVA_SpringTest2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/action/DateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/util/DateConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/jackson-core-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/jackson-databind-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-aop-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-aspects-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-beans-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-context-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-context-support-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-expression-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-instrument-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-instrument-tomcat-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-jdbc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-jms-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-messaging-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-orm-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-oxm-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-test-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-tx-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-web-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-webmvc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-webmvc-portlet-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/spring-websocket-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/sprint-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/images/8bcLQqF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/managelogin/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/table/js/bootstrap-table(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/css/bootstrapValidator.min(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JAVA_SpringTest3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SpringTest3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/springtest3/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/springtest3/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/springtest3/mapper/IMovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/springtest3/mapper/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA _SpringTest/src/pers/springone/action/CarAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA _SpringTest/src/pers/springone/action/CarAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA _SpringTest/src/pers/springone/service/Impl/ICarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA _SpringTest/src/pers/springone/service/Impl/ICarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA _SpringTest/src/pers/springone/test/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA _SpringTest/src/pers/springone/test/CarTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="movie_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="movie_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="movie_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="movie_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="movie_table: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="movie_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="type_table: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1590553351">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="movie_table" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="sql" value="2" />
+          <entry key="type_table" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="3" />
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="2" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="219" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="221" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="219" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="SQL" value="5" />
+          <entry key="XML" value="216" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springtest3/entity/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springtest3/entity/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+              <folding>
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springtest3/mapper/IMovieMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="85" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/springtest3/mapper/mapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/configuration.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ce4235d7-f9d2-476c-b75e-00f377521f85/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pers/springtest3/mapper/IMovieMapper.java" />
+        <option value="$PROJECT_DIR$/src/pers/springtest3/entity/Movie.java" />
+        <option value="$PROJECT_DIR$/src/pers/springtest3/entity/Type.java" />
+        <option value="$PROJECT_DIR$/src/pers/springtest3/mapper/mapper.xml" />
+        <option value="$PROJECT_DIR$/src/configuration.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="200" />
+    <option name="y" value="72" />
+    <option name="width" value="1600" />
+    <option name="height" value="950" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springtest3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springtest3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pers" type="462c0819:PsiDirectoryNode" />
+              <item name="springtest3" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_SpringTest3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_SpringTest3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546479415368" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Eve\JAVA_SpringTest3\src" />
+      <recent name="E:\Eve\JAVA_SpringTest3\src\pers\springtest3\mapper" />
+      <recent name="E:\Eve\JAVA_SpringTest3\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32cfa3ff-59e2-4be4-a3ed-1906e54c176f" name="Default Changelist" comment="" />
+      <created>1546477835548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546477835548</updated>
+      <workItem from="1546477841018" duration="1820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1820000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32867134" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" weight="0.19504021" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pers/springtest3/entity/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springtest3/entity/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ce4235d7-f9d2-476c-b75e-00f377521f85/schema/movie_db/table/type_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ce4235d7-f9d2-476c-b75e-00f377521f85/schema/movie_db/table/movie_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ce4235d7-f9d2-476c-b75e-00f377521f85/schema/movie_db/table/movie_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ce4235d7-f9d2-476c-b75e-00f377521f85/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springtest3/mapper/IMovieMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="85" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/springtest3/mapper/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JAVA_SpringTest3:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JAVA_SpringTest3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
