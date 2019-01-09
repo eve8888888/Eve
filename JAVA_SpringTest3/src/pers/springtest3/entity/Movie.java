@@ -8,6 +8,9 @@ import org.apache.ibatis.type.Alias;
  * @Version 1.0
  */
 
+
+
+
 @Alias("Movie")
 public class Movie {
     private Integer id;

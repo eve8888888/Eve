@@ -9,4 +9,5 @@ public interface IMovieMapper {
 //    根据页码找电影
     List<Movie> findMoviesByPage(@Param("startRow") Integer startRow,@Param("pageRows") Integer pageRows);
     Integer findTotalRows();
+    List<Movie> findAllMovieTest();
 }

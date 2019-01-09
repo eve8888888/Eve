@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/common/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/plugin/fileinput/css/fileinput.css">
+    <link rel="stylesheet" href="bootstrap/plugin/sweetalert/css/sweetalert2.css">
+    <link rel="stylesheet" href="bootstrap/plugin/table/css/bootstrap-table.css">
+    <link rel="stylesheet" href="bootstrap/plugin/validator/css/bootstrapValidator.css">
+    <script src="bootstrap/common/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/common/js/jquery.cookie.js"></script>
+    <script src="bootstrap/common/js/bootstrap.js"></script>
+    <script src="vue/vue.js"></script>
+    <script src="bootstrap/plugin/fileinput/js/fileinput.js"></script>
+    <script src="bootstrap/plugin/fileinput/js/zh.js"></script>
+    <script src="bootstrap/plugin/sweetalert/js/sweetalert2.js"></script>
+    <script src="bootstrap/plugin/table/js/bootstrap-table(1).js"></script>
+    <script src="bootstrap/plugin/validator/js/bootstrapValidator.js"></script>
+</head>
+<body>
+<div class="container">
+    <br/>
+    <br/>
+    <div class="row">
+        <template v-for="movie in movies">
+            <div class="col-sm-6 col-md-4">
+
+                <div class="thumbnail">
+                    <h3 class="caption text-center">{{movie.name}}</h3>
+                    <img :src="'images/movie/'+movie.pic" alt="movie.name" style="width: 240px;height: 200px">
+                    <div>
+                        <p >{{movie.desc}}</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#">查看详情</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="btn btn-danger btn-sm glyphicon glyphicon-shopping-cart">购物车</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+
+    <div class="row">
+        <nav class="text-right">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <template v-for="p in total">
+                    <li><a href="#">{{p}}</a></li>
+                </template>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<script>
+    var vue = new Vue({
+        el: '.container',
+        data: {
+            total: 0,
+            movies: []
+        },
+        created: function () {
+            var _this = this;
+            $.post('findMoviesByPage.action', {current: 1}, function (map) {
+                _this.movies = map.rows;
+                _this.total = map.total;
+            }, 'json');
+        }
+    });
+</script>
+
+</body>
+</html>

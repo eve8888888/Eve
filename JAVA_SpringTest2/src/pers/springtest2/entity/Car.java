@@ -1,5 +1,6 @@
 package pers.springtest2.entity;
 
+import org.apache.ibatis.type.Alias;
 import org.springframework.stereotype.Component;
 
 /**
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @Date: 2019/1/2 14:48
  * @Version 1.0
  */
-@Component("car")
+@Alias("car")
 public class Car {
     private String brand;
     private String color;

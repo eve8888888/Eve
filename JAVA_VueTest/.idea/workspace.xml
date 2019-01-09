@@ -2,199 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ea0ce1-2363-4ab0-bda0-51dd5782f831" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/configuration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/action/DeleteUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/action/FindAllAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/filter/ReqFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/mapper/IUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/mapper/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/test/IUserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/src/pers/mybatisandvue/util/MybatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/gson-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/table/js/bootstrap-table(1).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/css/bootstrapValidator.min(1).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueTest/web/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/configuration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/action/AddUsersAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/action/DeleteUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/action/FindAllAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/action/UpdateUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/filter/ReqFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/mapper/IUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/mapper/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/test/IUserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/src/pers/test/mybatisservlet/util/MybatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/gson-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/table/js/bootstrap-table(1).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/css/bootstrapValidator.min(1).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_TestMybatisTwo/web/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vue/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_ArrayListTest/src/pers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_ArrayListTest/src/pers/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_CarManagerTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_CarManagerTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_TestMybatisOne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_TestMybatisOne/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_CloneTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_CloneTest/src/pers/clonetest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SerializableTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SerializableTest/src/pers/serializable/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/action/FindAllMovieAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/service/IMovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/service/Impl/IMovieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/test/IMovieMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/util/DateConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/util/MybatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/WEB-INF/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA _SpringTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA _SpringTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/classes/pers/springtest2/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/classes/pers/springtest2/entity/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/sprint-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/production/JAVA_SpringTest2/pers/springtest2/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/out/production/JAVA_SpringTest2/pers/springtest2/entity/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/action/DateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/action/DateAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/sprint-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/JAVA_SpringTest3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/JAVA_SpringTest3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/IMovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/IMovieMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -207,10 +47,10 @@
     <session id="1708819624">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -299,6 +139,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,17 +152,10 @@
               <item name="JAVA_VueTest" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JAVA_VueTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_VueTest" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,17 +203,18 @@
       <workItem from="1545808209300" duration="280000" />
       <workItem from="1545815629360" duration="113000" />
       <workItem from="1545892998948" duration="665000" />
+      <workItem from="1546568225911" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2356000" />
+    <option name="totallyTimeSpent" value="2374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
