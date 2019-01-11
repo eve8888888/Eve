@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+"-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xagc.mtms.mapper.IMovieMapper" >
+  <resultMap id="typeMap" type="Type">
+      <id property="id" column="type_id"/>
+      <result property="name" column="type_name"/>
+      <result property="icon" column="type_icon"/>
+  </resultMap>
+
+    <resultMap id="DirectorMap" type="Director">
+        <id property="id" column="director_id"/>
+        <result property="name" column="director_name"/>
+        <result property="desc" column="director_desc"/>
+        <result property="pic" column="director_pic"/>
+    </resultMap>
+
+    <resultMap id="MovieMap" type="Movie">
+        <id property="id" column="movie_id"/>
+        <result property="title" column="movie_title"/>
+        <result property="desc" column="movie_desc"/>
+        <result property="pic" column="movie_pic"/>
+        <association property="type" column="movie_type" resultMap="TypeMap"/>
+    </resultMap>
+
+    <insert id="saveDirector">
+        insert into director_table(director_name,director_desc,director_pic)
+        values(#{name},#{desc},#{pic})
+    </insert>
+    <select id="findDirectors" resultMap="DirectorMap">
+        select * from director_table
+    </select>
+    <update id="updateDirector">
+        update director_table
+        set director_name = #{name},director_desc = #{desc},
+            director_pic = #{pic}
+        where director_id = #{id};
+    </update>
+    <delete id="deleteDirector">
+        delete from director_table
+        where director_id = #{id};
+    </delete>
+    <select id="findDirectorByLikeNameOrDesc" resultMap="DirectorMap">
+        select * from director_table
+        <where>
+            <if test="name!=''">
+                and director_name like concat('%',#{name},'%')
+            </if>
+            <if test="desc!=''">
+                and director_desc like concat('%',#{desc},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

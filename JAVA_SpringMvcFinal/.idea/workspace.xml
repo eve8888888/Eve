@@ -2,323 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676b44dd-de2e-4695-a8bb-41465713f9be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_CloneTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_CloneTest/src/pers/clonetest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_GCAndReferenceTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_GCAndReferenceTest/src/pers/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SerializableTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SerializableTest/src/pers/serializable/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JAVA_SpringMvcFinal_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_SpringMvcFinal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/entity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/entity/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/entity/FindByLikeCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/entity/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/mapper/IMovieMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/service/IMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/service/Impl/MovieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/service/Impl/MovieServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/springmvcfinal/util/DateConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/mybatis/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/spring/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/spring/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.8.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.8.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/pagehelper-5.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.19.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/managelogin/css/body.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/managelogin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/managelogin/images/8bcLQqF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/managelogin/images/cloud.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/table/js/bootstrap-table(1).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/css/bootstrapValidator.min(1).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/QRcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/login-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/login-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/login_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/5625d26884368.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/573eceaea782d_1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/57a5973130f1c_1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/batman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/big2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/big3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/big4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/bk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/bom01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/bom02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/detail02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/fantastic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/jinganglang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/jixian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/kls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/meidui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/other08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/rls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/robert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/shenghua.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/woshichuanqi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/zhanlang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/zidan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/movie/zuiquan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/action/FindAllMovieAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/service/IMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/service/Impl/IMovieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/test/IMovieMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/util/DateConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/util/MybatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/WEB-INF/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/common/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/managelogin/css/body.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/managelogin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/managelogin/images/8bcLQqF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/managelogin/images/cloud.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/fileinput/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/fileinput/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/fileinput/js/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/sweetalert/css/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/sweetalert/js/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/table/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/table/js/bootstrap-table(1).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/table/js/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/css/bootstrapValidator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/css/bootstrapValidator.min(1).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/bootstrapValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/ar_MA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/be_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/be_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/bg_BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/cs_CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/da_DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/de_DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/en_US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/es_ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/fa_IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/fr_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/gr_EL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/he_IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/hu_HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/id_ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/it_IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/ja_JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/nl_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/no_NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/pl_PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/ro_RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/ru_RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/sq_AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/tr_TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/ua_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/vi_VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/bootstrap/plugin/validator/js/language/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/QRcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/login-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/login-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/login_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/5625d26884368.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/573eceaea782d_1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/57a5973130f1c_1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/batman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/big2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/big3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/big4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/bk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/bom01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/bom02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/detail02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/fantastic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/jinganglang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/jixian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/kls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/meidui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/other08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/rls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/robert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/shenghua.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/woshichuanqi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/zhanlang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/zidan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/images/movie/zuiquan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/vue/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA _SpringTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA _SpringTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/classes/pers/springtest2/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/classes/pers/springtest2/entity/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/sprint-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/out/artifacts/JAVA_SpringTest2_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/out/production/JAVA_SpringTest2/pers/springtest2/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/out/production/JAVA_SpringTest2/pers/springtest2/entity/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/action/DateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/action/DateAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/src/pers/springtest2/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/sprint-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/springmvc-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/JAVA_SpringTest3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/JAVA_SpringTest3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/IMovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/IMovieMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/src/pers/springtest3/mapper/mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_SpringTest3/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_SpringTest3/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_VueTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_VueTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/entity/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/entity/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/entity/FindByLikeCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/mapper/IMoveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/resources/mybatis/springbootone.mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_SpringTest2/web/WEB-INF/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/test/springone/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MavenTestSpringbootOne/src/main/java/com/springone/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/action/FindAllMovieAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/entity/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/entity/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/filter/ReqFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/mapper/IMovieMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/mapper/TypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/service/IMovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/service/ITypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/service/Impl/MovieServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/service/Impl/TypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/test/TypeServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_MybatisAndVueFinal/out/production/JAVA_MybatisAndVueFinal/pers/test/util/MybatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/entity/Cinema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/entity/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/entity/FindByLikeCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/entity/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/entity/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/mapper/IMovieMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/service/IMovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/service/Impl/MovieServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/service/Impl/MovieServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/pers/springmvcfinal/util/DateConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_SpringMvcFinal/test/pers/springmvcfinal/service/Impl/MovieServiceImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -392,13 +116,14 @@
     <session id="-785883417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -453,11 +178,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resource/mybatis/mapper/mapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="171">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -474,7 +199,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pers/springmvcfinal/service/Impl/MovieServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -559,8 +284,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -693,7 +418,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA_SpringTest2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -908,6 +633,7 @@
       <workItem from="1546943014321" duration="3753000" />
       <workItem from="1546998499644" duration="4517000" />
       <workItem from="1547013822874" duration="380000" />
+      <workItem from="1547036695266" duration="212000" />
     </task>
     <servers />
   </component>
@@ -944,13 +670,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23955000" />
+    <option name="totallyTimeSpent" value="24167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979021" visible="true" weight="0.27479893" />
-      <window_info id="Structure" order="1" sideWeight="0.5020979" side_tool="true" visible="true" weight="0.27479893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965035" visible="true" weight="0.27882037" />
+      <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.27882037" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -1118,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,13 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/mybatis/mapper/mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1165,6 +881,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/mybatis/mapper/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>

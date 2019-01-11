@@ -10,7 +10,6 @@ import java.io.*;
 class Person implements Serializable {
     private String name;
     private transient Integer age;
-
     public Person(String name, Integer age) {
         this.name = name;
         this.age = age;
@@ -18,19 +17,15 @@ class Person implements Serializable {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public Integer getAge() {
         return age;
     }
-
     public void setAge(Integer age) {
         this.age = age;
     }
-
     @Override
     public String toString() {
         return "Person{" +
@@ -41,8 +36,7 @@ class Person implements Serializable {
 }
 public class Test {
     public static void main(String[] args) throws Exception{
-        File file = new File("C:\\Users\\Eve\\Desktop\\test.txt");
-
+        File file = new File("D:test.txt");
 //        Person p = new Person("Tom",20);
 //        FileOutputStream fileOutputStream = new FileOutputStream(file);
 //        ObjectOutputStream oos = new ObjectOutputStream(fileOutputStream);
