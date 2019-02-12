@@ -1,0 +1,8 @@
+com\xagc\mtms\entity\Type.class
+com\xagc\mtms\service\Impl\IMovieServiceImpl.class
+com\xagc\mtms\actions\MovieAction.class
+com\xagc\mtms\entity\Movie.class
+com\xagc\mtms\mapper\IMovieMapper.class
+com\xagc\mtms\entity\Director.class
+com\xagc\mtms\App.class
+com\xagc\mtms\service\IMovieService.class

@@ -36,5 +36,4 @@ public class GoodsDao extends DBdao {
         }
         return obj;
     }
-
 }

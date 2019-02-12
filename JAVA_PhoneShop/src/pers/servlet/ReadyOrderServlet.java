@@ -21,7 +21,7 @@ public class ReadyOrderServlet extends HttpServlet {
 			throws ServletException, IOException {//
 		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8");
-		
+
 		//获取href中cids
 		String cids = request.getParameter("cids");
 		CarService cs = new CarService();
@@ -29,7 +29,7 @@ public class ReadyOrderServlet extends HttpServlet {
 		System.out.println("listReadyOrderCar------>"+listReadyOrderCar.size());
 		request.setAttribute("listReadyOrderCar", listReadyOrderCar);
 		request.getRequestDispatcher("ReadyOrder.jsp").forward(request, response);
-		
+
 
 	}
 

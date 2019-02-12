@@ -74,7 +74,4 @@ public class Orders {
         return "Orsers [oid=" + oid + ", ototalMoney=" + ototalMoney + ", oaddress=" + oaddress + ", oTime=" + oTime
                 + ", oStatus=" + oStatus + ", u_id=" + u_id + "]";
     }
-
-
-
 }

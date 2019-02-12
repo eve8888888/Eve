@@ -93,6 +93,4 @@ public class OrdersDetail {
                 + odtotalmoney + ", odaddress=" + odaddress + ", odstatus=" + odstatus + ", oid=" + oid + ", gid=" + gid
                 + "]";
     }
-
-
 }

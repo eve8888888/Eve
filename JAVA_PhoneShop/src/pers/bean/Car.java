@@ -101,7 +101,4 @@ public class Car {
         return "Car [cid=" + cid + ", cmoney=" + cmoney + ", cnum=" + cnum + ", cname=" + cname + ", cimage=" + cimage
                 + ", cstatus=" + cstatus + ", gid=" + gid + ", u_id=" + u_id + "]";
     }
-
-
-
 }

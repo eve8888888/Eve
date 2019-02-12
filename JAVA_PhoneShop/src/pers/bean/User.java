@@ -89,6 +89,5 @@ public class User {
         return "User [u_id=" + u_id + ", u_pwd=" + u_pwd + ", u_name=" + u_name + ", u_phone=" + u_phone
                 + ", u_address=" + u_address + ", u_status=" + u_status + "]";
     }
-
 }
 

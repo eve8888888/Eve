@@ -28,5 +28,4 @@ public class OrdersDetailService {
 		List<OrdersDetail> list = db.query(sql);	
 		return list;
 	}
-
 }

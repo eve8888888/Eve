@@ -42,7 +42,5 @@ public class AddCarServlet extends HttpServlet {
 		cs.addCar(c);
 		//添加完成后，直接查询用户的购物车
 		response.sendRedirect("FindAllUserCarServlet");
-
 	}
-
 }
